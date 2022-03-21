@@ -1,0 +1,33 @@
+DECLARE @publicationVar varchar(60)
+SET @publicationVar = 'UPE_MM2_Reglament2_Publication'
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CA_TblTasks', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CA_TblTasks_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CA_TblTasks', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CB_TblSubTasks', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CB_TblSubTasks_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CB_TblSubTasks', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CC_TblSuccSubTasks', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CC_TblSuccSubTasks_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CC_TblSuccSubTasks', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CE_TblComments', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CE_TblComments_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CE_TblComments', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CG_TblSupportEq', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CG_TblSupportEq_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CG_TblSupportEq', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CH_TblManuals', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CH_TblManuals_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CH_TblManuals', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CI_TblAux', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CI_TblAux_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CI_TblAux', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CI_TblSpares', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CI_TblSpares_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CI_TblSpares', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CK_TblPeopleFunctions', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CK_TblPeopleFunctions_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CK_TblPeopleFunctions', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CL_TblWarnings', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_CL_TblWarnings_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'CL_TblWarnings', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentJobTypesMaintenance', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_TblReglamentJobTypesMaintenance_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentJobTypesMaintenance', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentLinks', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_TblReglamentLinks_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentLinks', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentPunktLinksWithMaintenance', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_TblReglamentPunktLinksWithMaintenance_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentPunktLinksWithMaintenance', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglaments', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_TblReglaments_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglaments', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentStrings', @property = 'article_resolver', @value = 'UPE_MM2_Reglament2_TblReglamentStrings_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TblReglamentStrings', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_helpmergearticle;

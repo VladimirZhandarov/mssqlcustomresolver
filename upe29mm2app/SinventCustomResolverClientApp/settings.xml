@@ -1,0 +1,22 @@
+<Settings>
+ <hostName>localhost</hostName>
+ <port>55001</port>
+ <mainClient>false</mainClient>
+ <ownResolve>true</ownResolve>
+ <DBServerInstanceName></DBServerInstanceName>
+ <DBNames>
+  <DBName>UPE_MM2_Administration2_EN</DBName>
+  <DBName>UPE_MM2_Catalog_EN</DBName>
+  <DBName>UPE_MM2_Documents2_EN</DBName>
+  <DBName>UPE_MM2_Formular_EN</DBName>
+  <DBName>UPE_MM2_ItemsAccount_EN</DBName>
+  <DBName>UPE_MM2_JPS_EN</DBName>
+  <DBName>UPE_MM2_Organization_EN</DBName>
+  <DBName>UPE_MM2_Planning_EN</DBName>
+  <DBName>UPE_MM2_Reglament2_EN</DBName>
+ </DBNames>
+ <logLevel>0</logLevel>
+ <applicationFont name="MS Shel Dlg 2" size="12"/>
+ <dataTableFont name="MS Shel Dlg 2" size="12"/>
+ <logFont name="MS Shel Dlg 2" size="12"/>
+</Settings>

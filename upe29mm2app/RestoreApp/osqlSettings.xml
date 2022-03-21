@@ -1,0 +1,22 @@
+<Settings>
+ <hostName>localhost</hostName>
+ <port>55001</port>
+ <osqlPath>C:/Program Files/Microsoft SQL Server/130/Tools/Binn</osqlPath>
+ <DBServerInstanceName>WIN-OTKENJ4TRM2\UPE_SRV</DBServerInstanceName>
+ <ftpUrl>ftp://192.168.30.220:21</ftpUrl>
+ <DBNames>
+  <DBName>UPE_MM2_Administration2</DBName>
+  <DBName>UPE_MM2_Catalog</DBName>
+  <DBName>UPE_MM2_Documents2</DBName>
+  <DBName>UPE_MM2_Formular</DBName>
+  <DBName>UPE_MM2_ItemsAccount</DBName>
+  <DBName>UPE_MM2_JPS</DBName>
+  <DBName>UPE_MM2_Organization</DBName>
+  <DBName>UPE_MM2_Planning</DBName>
+  <DBName>UPE_MM2_Reglament2</DBName>
+ </DBNames>
+ <lastBackupDir>C:/tmp</lastBackupDir>
+ <lastBackupUseUsername>True</lastBackupUseUsername>
+ <lastRestoreDir></lastRestoreDir>
+ <lastRestoreUseUsername>True</lastRestoreUseUsername>
+</Settings>

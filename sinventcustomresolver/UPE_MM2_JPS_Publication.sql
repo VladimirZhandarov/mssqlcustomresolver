@@ -1,0 +1,37 @@
+DECLARE @publicationVar varchar(60)
+SET @publicationVar = 'UPE_MM2_JPS_Publication'
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'Faults', @property = 'article_resolver', @value = 'UPE_MM2_JPS_Faults_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'Faults', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'FlightPrepareControlList', @property = 'article_resolver', @value = 'UPE_MM2_JPS_FlightPrepareControlList_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'FlightPrepareControlList', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportFaults', @property = 'article_resolver', @value = 'UPE_MM2_JPS_ImportFaults_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportFaults', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportFaultsDetail', @property = 'article_resolver', @value = 'UPE_MM2_JPS_ImportFaultsDetail_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportFaultsDetail', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportXLS', @property = 'article_resolver', @value = 'UPE_MM2_JPS_ImportXLS_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportXLS', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportXLSDetail', @property = 'article_resolver', @value = 'UPE_MM2_JPS_ImportXLSDetail_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ImportXLSDetail', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'JobTypes', @property = 'article_resolver', @value = 'UPE_MM2_JPS_JobTypes_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'JobTypes', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'JPS', @property = 'article_resolver', @value = 'UPE_MM2_JPS_JPS_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'JPS', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'KUN', @property = 'article_resolver', @value = 'UPE_MM2_JPS_KUN_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'KUN', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'KUN2', @property = 'article_resolver', @value = 'UPE_MM2_JPS_KUN2_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'KUN2', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'PilotRemarks', @property = 'article_resolver', @value = 'UPE_MM2_JPS_PilotRemarks_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'PilotRemarks', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'PlanJobs', @property = 'article_resolver', @value = 'UPE_MM2_JPS_PlanJobs_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'PlanJobs', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'PrepareRoutes', @property = 'article_resolver', @value = 'UPE_MM2_JPS_PrepareRoutes_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'PrepareRoutes', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ReliabilityFormulas', @property = 'article_resolver', @value = 'UPE_MM2_JPS_ReliabilityFormulas_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'ReliabilityFormulas', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'SOK_ReportDetails', @property = 'article_resolver', @value = 'UPE_MM2_JPS_SOK_ReportDetails_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'SOK_ReportDetails', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'SOK_Reports', @property = 'article_resolver', @value = 'UPE_MM2_JPS_SOK_Reports_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'SOK_Reports', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TypedPlanJobs', @property = 'article_resolver', @value = 'UPE_MM2_JPS_TypedPlanJobs_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'TypedPlanJobs', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_helpmergearticle;

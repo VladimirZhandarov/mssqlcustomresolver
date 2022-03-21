@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RestoreSettingWizardPage</class>
+ <widget class="QWizardPage" name="RestoreSettingWizardPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>316</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="directoryL">
+       <property name="text">
+        <string>Directory:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="directoryLE">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="directoryTB">
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="sourceTypeL">
+       <property name="text">
+        <string>Destination type:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="sourceTypeCB">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <item>
+        <property name="text">
+         <string>Local databases</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Server databases</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="usernameAndPasswordGroupBox">
+     <property name="title">
+      <string>Use username and password</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="usernameL">
+          <property name="text">
+           <string>Username:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="usernameLE">
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="passwordL">
+          <property name="text">
+           <string>Password:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="passwordLE">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="databasesL">
+       <property name="text">
+        <string>Databases:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTreeView" name="databasesTV"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>directoryTB</sender>
+   <signal>clicked()</signal>
+   <receiver>RestoreSettingWizardPage</receiver>
+   <slot>directoryTB_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>usernameAndPasswordGroupBox</sender>
+   <signal>clicked()</signal>
+   <receiver>RestoreSettingWizardPage</receiver>
+   <slot>usernameAndPasswordGroupBox_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>199</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>usernameLE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>RestoreSettingWizardPage</receiver>
+   <slot>usernameLE_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>passwordLE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>RestoreSettingWizardPage</receiver>
+   <slot>passwordLE_textChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>124</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>directoryTB_clicked()</slot>
+  <slot>usernameAndPasswordGroupBox_clicked()</slot>
+  <slot>usernameLE_textChanged(QString)</slot>
+  <slot>passwordLE_textChanged(QString)</slot>
+ </slots>
+</ui>

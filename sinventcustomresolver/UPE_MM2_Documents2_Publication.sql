@@ -1,0 +1,31 @@
+DECLARE @publicationVar varchar(60)
+SET @publicationVar = 'UPE_MM2_Documents2_Publication'
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docBulletinAircrafts', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocBulletinAircrafts_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docBulletinAircrafts', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docBulletins', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocBulletins_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docBulletins', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docChanges', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocChanges_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docChanges', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docDocTypes', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocDocTypes_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docDocTypes', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docDocuments', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocDocuments_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docDocuments', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docDocumentsMessages', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocDocumentsMessages_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docDocumentsMessages', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docFileFile', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocFileFile_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docFileFile', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docFiles', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocFiles_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docFiles', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docMesagesKinds', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocMesagesKinds_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docMesagesKinds', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docMessages', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocMessages_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docMessages', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docPriority', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocPriority_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docPriority', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docRenews', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocRenews_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docRenews', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docTreeElements', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocTreeElements_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docTreeElements', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docTreeElements_Documents', @property = 'article_resolver', @value = 'UPE_MM2_Documents2_DocTreeElements_Documents_SinventCustomResolver';
+EXEC sp_changemergearticle @publication = @publicationVar, @article = 'docTreeElements_Documents', @property = 'verify_resolver_signature', @value = '0';
+EXEC sp_helpmergearticle;

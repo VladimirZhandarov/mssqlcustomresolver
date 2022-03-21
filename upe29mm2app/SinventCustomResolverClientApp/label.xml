@@ -1,0 +1,4597 @@
+<tableLabel>
+  <dbName name = "UPE_MM2_Administration2_RU">
+
+    <table name = "admActivity" viewName = "">
+      <field name = "ID_Activity" bold="false"/>
+      <field name = "ActivityName" viewName = ""/>
+      <field name = "ID_Module" viewName = ""/>
+      <field name = "ConstName" viewName = ""/>
+    </table>
+
+    <table name = "admActivityModule" viewName = "">
+      <field name = "ID_Module" bold="false"/>
+      <field name = "ModuleName" viewName = ""/>
+    </table>
+
+    <table name = "admActivityUsingHistory" viewName = "">
+      <field name = "ID_ActivityUsingHistory" bold="false"/>
+      <field name = "ExecutionTimeStamp" viewName = ""/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+    <table name = "admAircraftAccess" viewName = "">
+      <field name = "ID_AircraftAccess" bold="false"/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "admRole" viewName = "">
+      <field name = "ID_Role" bold="false"/>
+      <field name = "RoleName" viewName = ""/>
+    </table>
+
+    <table name = "admRoleAccess" viewName = "">
+      <field name = "ID_RoleAccess" bold="false"/>
+      <field name = "ID_Role" viewName = ""/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "AllowCreate" viewName = ""/>
+      <field name = "AllowRead_Execute" viewName = ""/>
+      <field name = "AllowWrite_Edit" viewName = ""/>
+      <field name = "AllowDelete" viewName = ""/>
+    </table>
+
+    <table name = "admSystemEventAccount" viewName = "">
+      <field name = "ID_SystemEventAccount" bold="false"/>
+      <field name = "EventTime" viewName = ""/>
+      <field name = "EventType" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "EventNote" viewName = ""/>
+    </table>
+
+    <table name = "admUserAccess" viewName = "">
+      <field name = "ID_UserAccess" bold="false"/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "AllowCreate" viewName = ""/>
+      <field name = "AllowRead_Execute" viewName = ""/>
+      <field name = "AllowWrite_Edit" viewName = ""/>
+      <field name = "AllowDelete" viewName = ""/>
+    </table>
+
+    <table name = "admUserInRole" viewName = "">
+      <field name = "ID_UserInRole" bold="false"/>
+      <field name = "ID_Role" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+  
+    <table name = "admUserLogs" viewName = "">
+      <field name = "ID_LogRecord" bold="false"/>
+      <field name = "ModifyDate" viewName = ""/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "Details" viewName = ""/>
+    </table>
+
+    <table name = "admUserPassword" viewName = "">
+      <field name = "ID_UserPassword" bold="false"/>
+      <field name = "PasswordHash" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "Login" viewName = ""/>
+      <field name = "Signature" viewName = ""/>
+      <field name = "RegistrationFlag" viewName = ""/>
+    </table>
+
+    <table name = "admVacancyRoles" viewName = "">
+      <field name = "ID_VacancyRoles" bold="false"/>
+      <field name = "ID_Role" viewName = ""/>
+      <field name = "ID_Vacancy" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Administration2_EN">
+
+    <table name = "admActivity" viewName = "">
+      <field name = "ID_Activity" bold="false"/>
+      <field name = "ActivityName" viewName = ""/>
+      <field name = "ID_Module" viewName = ""/>
+      <field name = "ConstName" viewName = ""/>
+    </table>
+
+    <table name = "admActivityModule" viewName = "">
+      <field name = "ID_Module" bold="false"/>
+      <field name = "ModuleName" viewName = ""/>
+    </table>
+
+    <table name = "admActivityUsingHistory" viewName = "">
+      <field name = "ID_ActivityUsingHistory" bold="false"/>
+      <field name = "ExecutionTimeStamp" viewName = ""/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+    <table name = "admAircraftAccess" viewName = "">
+      <field name = "ID_AircraftAccess" bold="false"/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "admRole" viewName = "">
+      <field name = "ID_Role" bold="false"/>
+      <field name = "RoleName" viewName = ""/>
+    </table>
+
+    <table name = "admRoleAccess" viewName = "">
+      <field name = "ID_RoleAccess" bold="false"/>
+      <field name = "ID_Role" viewName = ""/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "AllowCreate" viewName = ""/>
+      <field name = "AllowRead_Execute" viewName = ""/>
+      <field name = "AllowWrite_Edit" viewName = ""/>
+      <field name = "AllowDelete" viewName = ""/>
+    </table>
+
+    <table name = "admSystemEventAccount" viewName = "">
+      <field name = "ID_SystemEventAccount" bold="false"/>
+      <field name = "EventTime" viewName = ""/>
+      <field name = "EventType" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "EventNote" viewName = ""/>
+    </table>
+
+    <table name = "admUserAccess" viewName = "">
+      <field name = "ID_UserAccess" bold="false"/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "AllowCreate" viewName = ""/>
+      <field name = "AllowRead_Execute" viewName = ""/>
+      <field name = "AllowWrite_Edit" viewName = ""/>
+      <field name = "AllowDelete" viewName = ""/>
+    </table>
+
+    <table name = "admUserInRole" viewName = "">
+      <field name = "ID_UserInRole" bold="false"/>
+      <field name = "ID_Role" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+  
+    <table name = "admUserLogs" viewName = "">
+      <field name = "ID_LogRecord" bold="false"/>
+      <field name = "ModifyDate" viewName = ""/>
+      <field name = "ID_Activity" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "Details" viewName = ""/>
+    </table>
+
+    <table name = "admUserPassword" viewName = "">
+      <field name = "ID_UserPassword" bold="false"/>
+      <field name = "PasswordHash" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "Login" viewName = ""/>
+      <field name = "Signature" viewName = ""/>
+      <field name = "RegistrationFlag" viewName = ""/>
+    </table>
+
+    <table name = "admVacancyRoles" viewName = "">
+      <field name = "ID_VacancyRoles" bold="false"/>
+      <field name = "ID_Role" viewName = ""/>
+      <field name = "ID_Vacancy" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Catalog_RU">
+
+    <table name = "AccessForUser" viewName = "">
+      <field name="Login" viewName=""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "OperNo" viewName = ""/>
+    </table>
+
+    <table name = "AccessForUser2" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "Login" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "OperNo" viewName = ""/>
+    </table>
+
+    <table name = "DemandHeaders" viewName = "">
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "DemandCode" viewName = ""/>
+      <field name = "DemandDate" viewName = ""/>
+      <field name = "StatusNo" viewName = ""/>
+    </table>
+
+    <table name = "DemandHistory" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "MessageDate" viewName = ""/>
+      <field name = "Message" viewName = ""/>
+      <field name = "StatusNo" viewName = ""/>
+      <field name = "UserLogin" viewName = ""/>
+    </table>
+
+    <table name = "DemandLines" viewName = "">
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "LineNo" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "Qty" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "IDPerson" viewName = ""/>
+    </table>
+
+    <table name = "DemandStatuses" viewName = "">
+      <field name = "StatusNo" viewName = ""/>
+      <field name = "StatusName" viewName = ""/>
+    </table>
+
+    <table name = "ExcludedNodes" viewName = "">
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+    </table>
+
+    <table name = "HA" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "ITNAMEHA" viewName = ""/>
+      <field name = "INAMECHA" viewName = ""/>
+    </table>
+
+    <table name = "HG" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+    </table>
+
+    <table name = "HJ" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "TMCODEXI" viewName = ""/>
+      <field name = "FIGNUMHK" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+    </table>
+
+    <table name = "HK" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "TMCODEXI" viewName = ""/>
+      <field name = "FIGNUMHK" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "QTYFIGHK" viewName = ""/>
+    </table>
+
+    <table name = "IllustrationByFinalItem" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+    </table>
+
+    <table name = "IllustrationByNodes" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+    </table>
+
+    <table name = "IllustrationByProducts" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "ProductTypeId" viewName = ""/>
+    </table>
+
+    <table name = "Illustrations" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "FileName" viewName = ""/>
+      <field name = "FileContent" viewName = ""/>
+      <field name = "GUID" viewName = ""/>
+      <field name = "Caption" viewName = ""/>
+      <field name = "FigNo" viewName = ""/>
+      <field name = "FigName" viewName = ""/>
+      <field name = "ASDS1000D" viewName = ""/>
+      <field name = "LibFileTypeNo" viewName = ""/>
+      <field name = "FigNameLoc" viewName = ""/>
+      <field name = "HalfPosSquare" viewName = ""/>
+      <field name = "FileId" viewName = ""/>
+      <field name = "ImageFormat" viewName = ""/>
+      <field name = "FigDocNo" viewName = ""/>
+    </table>
+
+    <table name = "ImageItemPos" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "X0" viewName = ""/>
+      <field name = "Y0" viewName = ""/>
+      <field name = "XTo" viewName = ""/>
+      <field name = "YTo" viewName = ""/>
+    </table>
+
+    <table name = "ImageItemPos2" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "ImageNo" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "X0" viewName = ""/>
+      <field name = "Y0" viewName = ""/>
+      <field name = "XTo" viewName = ""/>
+      <field name = "YTo" viewName = ""/>
+      <field name = "ImageType" viewName = ""/>
+    </table>
+
+    <table name = "Images" viewName = "">
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "FileName" viewName = ""/>
+      <field name = "FileContent" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+    </table>
+
+    <table name = "Images2" viewName = "">
+      <field name = "ImageNo" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "FileName" viewName = ""/>
+      <field name = "FileContent" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+      <field name = "Caption" viewName = ""/>
+      <field name = "GUID" viewName = ""/>
+    </table>
+
+    <table name = "Operations" viewName = "">
+      <field name = "OperNo" viewName = ""/>
+      <field name = "OperName" viewName = ""/>
+      <field name = "OperIndex" viewName = ""/>
+    </table>
+
+    <table name = "OperationsLog" viewName = "">
+      <field name = "ID_OperationLog" bold = "false"/>
+      <field name = "OperationDate" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "OperationType" viewName = ""/>
+      <field name = "ID_Node" viewName = ""/>
+      <field name = "ID_ProductType" viewName = ""/>
+      <field name = "ID_Illustration" viewName = ""/>
+      <field name = "ProjectCode" viewName = ""/>
+      <field name = "Details" viewName = ""/>
+    </table>
+
+    <table name = "Organizations" viewName = "">
+      <field name = "ID_Organization" bold = "false"/>
+      <field name = "FullName" viewName = ""/>
+      <field name = "ShortName" viewName = ""/>
+      <field name = "OrgForm" viewName = ""/>
+      <field name = "Country" viewName = ""/>
+      <field name = "Region" viewName = ""/>
+      <field name = "City" viewName = ""/>
+      <field name = "Street" viewName = ""/>
+      <field name = "House" viewName = ""/>
+      <field name = "Building" viewName = ""/>
+      <field name = "PostIndex" viewName = ""/>
+      <field name = "FactCountry" viewName = ""/>
+      <field name = "FactRegion" viewName = ""/>
+      <field name = "FactCity" viewName = ""/>
+      <field name = "FactStreet" viewName = ""/>
+      <field name = "FactHouse" viewName = ""/>
+      <field name = "FactBuilding" viewName = ""/>
+      <field name = "FactPostIndex" viewName = ""/>
+      <field name = "WebSite" viewName = ""/>
+      <field name = "Phone" viewName = ""/>
+      <field name = "Fax" viewName = ""/>
+      <field name = "Email" viewName = ""/>
+      <field name = "OKPO" viewName = ""/>
+      <field name = "OGRN" viewName = ""/>
+      <field name = "INN" viewName = ""/>
+      <field name = "KPP" viewName = ""/>
+      <field name = "NCAGECode" viewName = ""/>
+    </table>
+
+    <table name = "ProductAttributes" viewName = "">
+      <field name = "ProductAttrNo" viewName = ""/>
+      <field name = "AttrName" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+      <field name = "AttrCode" viewName = ""/>
+      <field name = "MeasureUnit" viewName = ""/>
+      <field name = "Descriptions" viewName = ""/>
+    </table>
+
+    <table name = "ProductAttrValues" viewName = "">
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "ProductAttrNo" viewName = ""/>
+      <field name = "ProductAttrValue" viewName = ""/>
+    </table>
+
+    <table name = "ProductTypes" viewName = "">
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "ProductNameLoc" viewName = ""/>
+      <field name = "GUID_ProductTypes" viewName = ""/>
+      <field name = "UpdateTime" viewName = ""/>
+      <field name = "DeleteTime" viewName = ""/>
+      <field name = "ReplaceTime" viewName = ""/>
+      <field name = "IsDelete" viewName = ""/>
+      <field name = "Replaced_GUID" viewName = ""/>
+      <field name = "REFNUMHALoc" viewName = ""/>
+      <field name = "ADOId" viewName = ""/>
+      <field name = "IsPCI" viewName = ""/>
+      <field name = "IsRepair" viewName = ""/>
+      <field name = "StorageConditions" viewName = ""/>
+      <field name = "Packing" viewName = ""/>
+      <field name = "Transportation" viewName = ""/>
+      <field name = "Code" viewName = ""/>
+      <field name = "CodeLoc" viewName = ""/>
+      <field name = "Purpose" viewName = ""/>
+      <field name = "Principle" viewName = ""/>
+      <field name = "FNN" viewName = ""/>
+      <field name = "VendorCode" viewName = ""/>
+      <field name = "IsServicing" viewName = ""/>
+      <field name = "ServiceMode" viewName = ""/>
+      <field name = "ServiceLevel" viewName = ""/>
+      <field name = "RepairTypes" viewName = ""/>
+      <field name = "PassportType" viewName = ""/>
+      <field name = "IsNumbered" viewName = ""/>
+    </table>
+
+    <table name = "ProductTypeSuppliers" viewName = "">
+      <field name = "ID_ProductTypeSuppliers" bold = "false"/>
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+      <field name = "IsDeveloper" viewName = ""/>
+      <field name = "IsManufacturer" viewName = ""/>
+      <field name = "IsSupplier" viewName = ""/>
+    </table>
+
+    <table name = "ServicePeriodicity" viewName = "">
+      <field name = "Id" viewName = ""/>
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "Description" viewName = ""/>
+      <field name = "Value" viewName = ""/>
+      <field name = "MeasureUnit" viewName = ""/>
+    </table>
+
+    <table name = "SynchronizingLog" viewName = "">
+      <field name = "ObjectName" viewName = ""/>
+      <field name = "SynchronizingDate" viewName = ""/>
+    </table>
+
+    <table name = "Tmp1" viewName = "">
+      <field name = "Id" viewName = ""/>
+      <field name = "System" viewName = ""/>
+      <field name = "Subsystem" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "Content" viewName = ""/>
+      <field name = "LCN" viewName = ""/>
+    </table>
+
+    <table name = "TopDevice" viewName = "">
+      <field name = "Id" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+    </table>
+
+    <table name = "TreeNodes" viewName = "">
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "ParentNo" viewName = ""/>
+      <field name = "PrevNo" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LCNAMEXB" viewName = ""/>
+      <field name = "TMFGCDXB" viewName = ""/>
+      <field name = "SYSIDNXB" viewName = ""/>
+      <field name = "RAMINDXB" viewName = ""/>
+      <field name = "WIBBLEXB" viewName = ""/>
+      <field name = "LOCWAZXB" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "TMCODEXI" viewName = ""/>
+      <field name = "FIGNUMHK" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "QTYFIGHK" viewName = ""/>
+      <field name = "ItemType" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "AccessPoint" viewName = ""/>
+      <field name = "Applicability" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "Visible" viewName = ""/>
+      <field name = "KeyItem" viewName = ""/>
+      <field name = "PassportType" viewName = ""/>
+      <field name = "Specialization" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "GUID" viewName = ""/>
+      <field name = "DrawingNo" viewName = ""/>
+      <field name = "DrawingPosNo" viewName = ""/>
+      <field name = "IsCompleted" viewName = ""/>
+      <field name = "LCNAMEXBLoc" viewName = ""/>
+      <field name = "ProductNameLoc" viewName = ""/>
+      <field name = "ApplicabilityLoc" viewName = ""/>
+      <field name = "NoteLoc" viewName = ""/>
+      <field name = "SystemCode" viewName = ""/>
+      <field name = "SubsystemCode" viewName = ""/>
+      <field name = "IMMOLS" viewName = ""/>
+      <field name = "ADOId" viewName = ""/>
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "Purpose" viewName = ""/>
+      <field name = "NoticeNo" viewName = ""/>
+      <field name = "DrawListNo" viewName = ""/>
+      <field name = "ElectricNo" viewName = ""/>
+      <field name = "ElectricListNo" viewName = ""/>
+      <field name = "ElectricPosNo" viewName = ""/>
+      <field name = "IsSpare" viewName = ""/>
+      <field name = "IsBeforeFlightPrepar" viewName = ""/>
+      <field name = "IsRepeatFlightPrepar" viewName = ""/>
+      <field name = "IsAfterFlightPrepar" viewName = ""/>
+      <field name = "NoticeListNo" viewName = ""/>
+      <field name = "NoticePosNo" viewName = ""/>
+      <field name = "FigListNo" viewName = ""/>
+      <field name = "ChildNo" viewName = ""/>
+    </table>
+
+    <table name = "Variants" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "ALTINDEX" viewName = ""/>
+      <field name = "VariantName" viewName = ""/>
+      <field name = "FinalItemNo" viewName = ""/>
+    </table>
+
+    <table name = "XA" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LCNSTRXA" viewName = ""/>
+      <field name = "SecurityLevel" viewName = ""/>
+      <field name = "EIACODNAME" viewName = ""/>
+      <field name = "EIACODNAME_Loc" viewName = ""/>
+    </table>
+
+    <table name = "XAAdd" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LCN" viewName = ""/>
+      <field name = "Code" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "Variant" viewName = ""/>
+    </table>
+
+    <table name = "XB" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "LCNINDXB" viewName = ""/>
+      <field name = "LCNAMEXB" viewName = ""/>
+      <field name = "TMFGCDXB" viewName = ""/>
+      <field name = "SYSIDNXB" viewName = ""/>
+      <field name = "RAMINDXB" viewName = ""/>
+      <field name = "WIBBLEXB" viewName = ""/>
+      <field name = "LOCWAZXB" viewName = ""/>
+    </table>
+
+    <table name = "XB_tmp" viewName = "">
+      <field name = "ID" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "F1" viewName = ""/>
+      <field name = "F2" viewName = ""/>
+      <field name = "F3" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "LCNINDXB" viewName = ""/>
+      <field name = "LCNAMEXB" viewName = ""/>
+      <field name = "TMFGCDXB" viewName = ""/>
+      <field name = "SYSIDNXB" viewName = ""/>
+      <field name = "RAMINDXB" viewName = ""/>
+      <field name = "WIBBLEXB" viewName = ""/>
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "QTYFIGHK" viewName = ""/>
+    </table>
+
+    <table name = "XBAdd" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "Visible" viewName = ""/>
+      <field name = "ItemType" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "AccessPoint" viewName = ""/>
+      <field name = "Applicability" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+    </table>
+
+    <table name = "XH" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "CANAMEXH" viewName = ""/>
+      <field name = "CASTREXH" viewName = ""/>
+      <field name = "CACITYXH" viewName = ""/>
+      <field name = "CASTATXH" viewName = ""/>
+      <field name = "CANATNXH" viewName = ""/>
+      <field name = "CAPOZOXH" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Catalog_EN">
+
+    <table name = "AccessForUser" viewName = "">
+      <field name = "Login" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "OperNo" viewName = ""/>
+    </table>
+
+    <table name = "AccessForUser2" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "Login" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "OperNo" viewName = ""/>
+    </table>
+
+    <table name = "DemandHeaders" viewName = "">
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "DemandCode" viewName = ""/>
+      <field name = "DemandDate" viewName = ""/>
+      <field name = "StatusNo" viewName = ""/>
+    </table>
+
+    <table name = "DemandHistory" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "MessageDate" viewName = ""/>
+      <field name = "Message" viewName = ""/>
+      <field name = "StatusNo" viewName = ""/>
+      <field name = "UserLogin" viewName = ""/>
+    </table>
+
+    <table name = "DemandLines" viewName = "">
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "LineNo" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "Qty" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "IDPerson" viewName = ""/>
+    </table>
+
+    <table name = "DemandStatuses" viewName = "">
+      <field name = "StatusNo" viewName = ""/>
+      <field name = "StatusName" viewName = ""/>
+    </table>
+
+    <table name = "ExcludedNodes" viewName = "">
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+    </table>
+
+    <table name = "HA" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "ITNAMEHA" viewName = ""/>
+      <field name = "INAMECHA" viewName = ""/>
+    </table>
+
+    <table name = "HG" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+    </table>
+
+    <table name = "HJ" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "TMCODEXI" viewName = ""/>
+      <field name = "FIGNUMHK" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+    </table>
+
+    <table name = "HK" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "TMCODEXI" viewName = ""/>
+      <field name = "FIGNUMHK" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "QTYFIGHK" viewName = ""/>
+    </table>
+
+    <table name = "IllustrationByFinalItem" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+    </table>
+
+    <table name = "IllustrationByNodes" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+    </table>
+
+    <table name = "IllustrationByProducts" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "ProductTypeId" viewName = ""/>
+    </table>
+
+    <table name = "Illustrations" viewName = "">
+      <field name = "IllustrNo" viewName = ""/>
+      <field name = "FileName" viewName = ""/>
+      <field name = "FileContent" viewName = ""/>
+      <field name = "GUID" viewName = ""/>
+      <field name = "Caption" viewName = ""/>
+      <field name = "FigNo" viewName = ""/>
+      <field name = "FigName" viewName = ""/>
+      <field name = "ASDS1000D" viewName = ""/>
+      <field name = "LibFileTypeNo" viewName = ""/>
+      <field name = "FigNameLoc" viewName = ""/>
+      <field name = "HalfPosSquare" viewName = ""/>
+      <field name = "FileId" viewName = ""/>
+      <field name = "ImageFormat" viewName = ""/>
+      <field name = "FigDocNo" viewName = ""/>
+    </table>
+
+    <table name = "ImageItemPos" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "X0" viewName = ""/>
+      <field name = "Y0" viewName = ""/>
+      <field name = "XTo" viewName = ""/>
+      <field name = "YTo" viewName = ""/>
+    </table>
+
+    <table name = "ImageItemPos2" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "ImageNo" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "X0" viewName = ""/>
+      <field name = "Y0" viewName = ""/>
+      <field name = "XTo" viewName = ""/>
+      <field name = "YTo" viewName = ""/>
+      <field name = "ImageType" viewName = ""/>
+    </table>
+
+    <table name = "Images" viewName = "">
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "FileName" viewName = ""/>
+      <field name = "FileContent" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+    </table>
+
+    <table name = "Images2" viewName = "">
+      <field name = "ImageNo" viewName = ""/>
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "FileName" viewName = ""/>
+      <field name = "FileContent" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+      <field name = "Caption" viewName = ""/>
+      <field name = "GUID" viewName = ""/>
+    </table>
+
+    <table name = "Operations" viewName = "">
+      <field name = "OperNo" viewName = ""/>
+      <field name = "OperName" viewName = ""/>
+      <field name = "OperIndex" viewName = ""/>
+    </table>
+
+    <table name = "OperationsLog" viewName = "">
+      <field name = "ID_OperationLog" bold = "false"/>
+      <field name = "OperationDate" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "OperationType" viewName = ""/>
+      <field name = "ID_Node" viewName = ""/>
+      <field name = "ID_ProductType" viewName = ""/>
+      <field name = "ID_Illustration" viewName = ""/>
+      <field name = "ProjectCode" viewName = ""/>
+      <field name = "Details" viewName = ""/>
+    </table>
+
+    <table name = "Organizations" viewName = "">
+      <field name = "ID_Organization" bold = "false"/>
+      <field name = "FullName" viewName = ""/>
+      <field name = "ShortName" viewName = ""/>
+      <field name = "OrgForm" viewName = ""/>
+      <field name = "Country" viewName = ""/>
+      <field name = "Region" viewName = ""/>
+      <field name = "City" viewName = ""/>
+      <field name = "Street" viewName = ""/>
+      <field name = "House" viewName = ""/>
+      <field name = "Building" viewName = ""/>
+      <field name = "PostIndex" viewName = ""/>
+      <field name = "FactCountry" viewName = ""/>
+      <field name = "FactRegion" viewName = ""/>
+      <field name = "FactCity" viewName = ""/>
+      <field name = "FactStreet" viewName = ""/>
+      <field name = "FactHouse" viewName = ""/>
+      <field name = "FactBuilding" viewName = ""/>
+      <field name = "FactPostIndex" viewName = ""/>
+      <field name = "WebSite" viewName = ""/>
+      <field name = "Phone" viewName = ""/>
+      <field name = "Fax" viewName = ""/>
+      <field name = "Email" viewName = ""/>
+      <field name = "OKPO" viewName = ""/>
+      <field name = "OGRN" viewName = ""/>
+      <field name = "INN" viewName = ""/>
+      <field name = "KPP" viewName = ""/>
+      <field name = "NCAGECode" viewName = ""/>
+    </table>
+
+    <table name = "ProductAttributes" viewName = "">
+      <field name = "ProductAttrNo" viewName = ""/>
+      <field name = "AttrName" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+      <field name = "AttrCode" viewName = ""/>
+      <field name = "MeasureUnit" viewName = ""/>
+      <field name = "Descriptions" viewName = ""/>
+    </table>
+
+    <table name = "ProductAttrValues" viewName = "">
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "ProductAttrNo" viewName = ""/>
+      <field name = "ProductAttrValue" viewName = ""/>
+    </table>
+
+    <table name = "ProductTypes" viewName = "">
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "ProductNameLoc" viewName = ""/>
+      <field name = "GUID_ProductTypes" viewName = ""/>
+      <field name = "UpdateTime" viewName = ""/>
+      <field name = "DeleteTime" viewName = ""/>
+      <field name = "ReplaceTime" viewName = ""/>
+      <field name = "IsDelete" viewName = ""/>
+      <field name = "Replaced_GUID" viewName = ""/>
+      <field name = "REFNUMHALoc" viewName = ""/>
+      <field name = "ADOId" viewName = ""/>
+      <field name = "IsPCI" viewName = ""/>
+      <field name = "IsRepair" viewName = ""/>
+      <field name = "StorageConditions" viewName = ""/>
+      <field name = "Packing" viewName = ""/>
+      <field name = "Transportation" viewName = ""/>
+      <field name = "Code" viewName = ""/>
+      <field name = "CodeLoc" viewName = ""/>
+      <field name = "Purpose" viewName = ""/>
+      <field name = "Principle" viewName = ""/>
+      <field name = "FNN" viewName = ""/>
+      <field name = "VendorCode" viewName = ""/>
+      <field name = "IsServicing" viewName = ""/>
+      <field name = "ServiceMode" viewName = ""/>
+      <field name = "ServiceLevel" viewName = ""/>
+      <field name = "RepairTypes" viewName = ""/>
+      <field name = "PassportType" viewName = ""/>
+      <field name = "IsNumbered" viewName = ""/>
+    </table>
+
+    <table name = "ProductTypeSuppliers" viewName = "">
+      <field name = "ID_ProductTypeSuppliers" bold = "false"/>
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+      <field name = "IsDeveloper" viewName = ""/>
+      <field name = "IsManufacturer" viewName = ""/>
+      <field name = "IsSupplier" viewName = ""/>
+    </table>
+
+    <table name = "ServicePeriodicity" viewName = "">
+      <field name = "Id" viewName = ""/>
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "Description" viewName = ""/>
+      <field name = "Value" viewName = ""/>
+      <field name = "MeasureUnit" viewName = ""/>
+    </table>
+
+    <table name = "SynchronizingLog" viewName = "">
+      <field name = "ObjectName" viewName = ""/>
+      <field name = "SynchronizingDate" viewName = ""/>
+    </table>
+
+    <table name = "Tmp1" viewName = "">
+      <field name = "Id" viewName = ""/>
+      <field name = "System" viewName = ""/>
+      <field name = "Subsystem" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "Content" viewName = ""/>
+      <field name = "LCN" viewName = ""/>
+    </table>
+
+    <table name = "TopDevice" viewName = "">
+      <field name = "Id" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+    </table>
+
+    <table name = "TreeNodes" viewName = "">
+      <field name = "NodeNo" viewName = ""/>
+      <field name = "ParentNo" viewName = ""/>
+      <field name = "PrevNo" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LCNAMEXB" viewName = ""/>
+      <field name = "TMFGCDXB" viewName = ""/>
+      <field name = "SYSIDNXB" viewName = ""/>
+      <field name = "RAMINDXB" viewName = ""/>
+      <field name = "WIBBLEXB" viewName = ""/>
+      <field name = "LOCWAZXB" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "TMCODEXI" viewName = ""/>
+      <field name = "FIGNUMHK" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "QTYFIGHK" viewName = ""/>
+      <field name = "ItemType" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "AccessPoint" viewName = ""/>
+      <field name = "Applicability" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "Visible" viewName = ""/>
+      <field name = "KeyItem" viewName = ""/>
+      <field name = "PassportType" viewName = ""/>
+      <field name = "Specialization" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "GUID" viewName = ""/>
+      <field name = "DrawingNo" viewName = ""/>
+      <field name = "DrawingPosNo" viewName = ""/>
+      <field name = "IsCompleted" viewName = ""/>
+      <field name = "LCNAMEXBLoc" viewName = ""/>
+      <field name = "ProductNameLoc" viewName = ""/>
+      <field name = "ApplicabilityLoc" viewName = ""/>
+      <field name = "NoteLoc" viewName = ""/>
+      <field name = "SystemCode" viewName = ""/>
+      <field name = "SubsystemCode" viewName = ""/>
+      <field name = "IMMOLS" viewName = ""/>
+      <field name = "ADOId" viewName = ""/>
+      <field name = "ProductTypeId" viewName = ""/>
+      <field name = "Purpose" viewName = ""/>
+      <field name = "NoticeNo" viewName = ""/>
+      <field name = "DrawListNo" viewName = ""/>
+      <field name = "ElectricNo" viewName = ""/>
+      <field name = "ElectricListNo" viewName = ""/>
+      <field name = "ElectricPosNo" viewName = ""/>
+      <field name = "IsSpare" viewName = ""/>
+      <field name = "IsBeforeFlightPrepar" viewName = ""/>
+      <field name = "IsRepeatFlightPrepar" viewName = ""/>
+      <field name = "IsAfterFlightPrepar" viewName = ""/>
+      <field name = "NoticeListNo" viewName = ""/>
+      <field name = "NoticePosNo" viewName = ""/>
+      <field name = "FigListNo" viewName = ""/>
+      <field name = "ChildNo" viewName = ""/>
+    </table>
+
+    <table name = "Variants" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "ALTINDEX" viewName = ""/>
+      <field name = "VariantName" viewName = ""/>
+      <field name = "FinalItemNo" viewName = ""/>
+    </table>
+
+    <table name = "XA" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LCNSTRXA" viewName = ""/>
+      <field name = "SecurityLevel" viewName = ""/>
+      <field name = "EIACODNAME" viewName = ""/>
+      <field name = "EIACODNAME_Loc" viewName = ""/>
+    </table>
+
+    <table name = "XAAdd" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LCN" viewName = ""/>
+      <field name = "Code" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "Variant" viewName = ""/>
+    </table>
+
+    <table name = "XB" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "LCNINDXB" viewName = ""/>
+      <field name = "LCNAMEXB" viewName = ""/>
+      <field name = "TMFGCDXB" viewName = ""/>
+      <field name = "SYSIDNXB" viewName = ""/>
+      <field name = "RAMINDXB" viewName = ""/>
+      <field name = "WIBBLEXB" viewName = ""/>
+      <field name = "LOCWAZXB" viewName = ""/>
+    </table>
+
+    <table name = "XB_tmp" viewName = "">
+      <field name = "ID" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "F1" viewName = ""/>
+      <field name = "F2" viewName = ""/>
+      <field name = "F3" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "LCNINDXB" viewName = ""/>
+      <field name = "LCNAMEXB" viewName = ""/>
+      <field name = "TMFGCDXB" viewName = ""/>
+      <field name = "SYSIDNXB" viewName = ""/>
+      <field name = "RAMINDXB" viewName = ""/>
+      <field name = "WIBBLEXB" viewName = ""/>
+      <field name = "REFDESHJ" viewName = ""/>
+      <field name = "ITEMNOHK" viewName = ""/>
+      <field name = "QTYFIGHK" viewName = ""/>
+    </table>
+
+    <table name = "XBAdd" viewName = "">
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXB" viewName = ""/>
+      <field name = "ALTLCNXB" viewName = ""/>
+      <field name = "LCNTYPXB" viewName = ""/>
+      <field name = "Visible" viewName = ""/>
+      <field name = "ItemType" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "AccessPoint" viewName = ""/>
+      <field name = "Applicability" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+    </table>
+
+    <table name = "XH" viewName = "">
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "CANAMEXH" viewName = ""/>
+      <field name = "CASTREXH" viewName = ""/>
+      <field name = "CACITYXH" viewName = ""/>
+      <field name = "CASTATXH" viewName = ""/>
+      <field name = "CANATNXH" viewName = ""/>
+      <field name = "CAPOZOXH" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Documents2_RU">
+
+    <table name = "docBulletinAircrafts" viewName = "">
+      <field name = "ID_BulletinAitcrafts" bold = "false"/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "IsReady" viewName = ""/>
+      <field name = "ID_Bulletin" viewName = ""/>
+    </table>
+
+    <table name = "docBulletins" viewName = "">
+      <field name = "IsReady" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "ID_Bulletin" viewName = ""/>
+    </table>
+
+    <table name = "docChanges" viewName = "">
+      <field name = "ID_Change" bold = "false"/>
+      <field name = "ID_BaseDoc" viewName = ""/>
+      <field name = "ID_AddDoc" viewName = ""/>
+    </table>
+
+    <table name = "docDocTypes" viewName = "">
+      <field name = "ID_DocType" bold = "false"/>
+      <field name = "TypeName" viewName = ""/>
+    </table>
+
+    <table name = "docDocuments" viewName = "">
+      <field name = "ID_Document" bold = "false"/>
+      <field name = "dtRegistration" viewName = ""/>
+      <field name = "sDescription" viewName = ""/>
+      <field name = "sSenderCreator" viewName = ""/>
+      <field name = "sSenderOrganization" viewName = ""/>
+      <field name = "ID_Executor" viewName = ""/>
+      <field name = "dtRedLine" viewName = ""/>
+      <field name = "sName" viewName = ""/>
+      <field name = "ID_DocumentParent" viewName = ""/>
+      <field name = "sSenderToOrganization" viewName = ""/>
+      <field name = "sSenderToSotrudnik" viewName = ""/>
+      <field name = "sRecieverDocumentNumber" viewName = ""/>
+      <field name = "ID_RecieverRegistrator" viewName = ""/>
+      <field name = "sSenderDocumentNumber" viewName = ""/>
+      <field name = "dtRecieverDocumentData" viewName = ""/>
+      <field name = "intPages" viewName = ""/>
+      <field name = "ID_Priority" viewName = ""/>
+      <field name = "dtSenderDocumentData" viewName = ""/>
+      <field name = "ID_DocType" viewName = ""/>
+      <field name = "sSenderMainExecutor" viewName = ""/>
+      <field name = "sSenderMainExecutorInfo" viewName = ""/>
+      <field name = "sRecieverRegistrator" viewName = ""/>
+      <field name = "sRecieverRegistratorInfo" viewName = ""/>
+      <field name = "sReciExecutor" viewName = ""/>
+      <field name = "sReciExecutorInfo" viewName = ""/>
+      <field name = "sAdditions" viewName = ""/>
+    </table>
+
+    <table name = "docDocumentsMessages" viewName = "">
+      <field name = "ID_DocumentMessage" bold = "false"/>
+      <field name = "ID_Message" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "ID_DocumentAdd" viewName = ""/>
+    </table>
+
+    <table name = "docFileFile" viewName = "">
+      <field name = "ID_FileFile" bold = "false"/>
+      <field name = "Source" viewName = ""/>
+    </table>
+
+    <table name = "docFiles" viewName = "">
+      <field name = "ID_File" bold = "false"/>
+      <field name = "sFileName" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "dtAdded" viewName = ""/>
+      <field name = "FileVersion" viewName = ""/>
+      <field name = "ID_FileFile" viewName = ""/>
+      <field name = "sFileID" viewName = ""/>
+    </table>
+
+    <table name = "docMesagesKinds" viewName = "">
+      <field name = "ID_MessageKind" bold = "false"/>
+      <field name = "MessageDescription" viewName = ""/>
+      <field name = "ShortMessageDescription" viewName = ""/>
+    </table>
+
+    <table name = "docMessages" viewName = "">
+      <field name = "ID_Message" bold = "false"/>
+      <field name = "ID_MainMessage" viewName = ""/>
+      <field name = "ID_ParentMessage" viewName = ""/>
+      <field name = "ID_MessageKind" viewName = ""/>
+      <field name = "ID_DutyMan" viewName = ""/>
+      <field name = "ID_ExecutorMan" viewName = ""/>
+      <field name = "fMainExecutor" viewName = ""/>
+      <field name = "fMessageReady" viewName = ""/>
+      <field name = "MessageName" viewName = ""/>
+    </table>
+
+    <table name = "docPriority" viewName = "">
+      <field name = "ID_Priority" bold = "false"/>
+      <field name = "Description" viewName = ""/>
+    </table>
+
+    <table name = "docRenews" viewName = "">
+      <field name = "ID_Renew" bold = "false"/>
+      <field name = "ID_OldVersion" viewName = ""/>
+      <field name = "ID_NewVersion" viewName = ""/>
+    </table>
+
+    <table name = "docTreeElements" viewName = "">
+      <field name = "ID_TreeElement" bold = "false"/>
+      <field name = "ID_ParentTreeElement" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "orderTree" viewName = ""/>
+      <field name = "documentsIncluded" viewName = ""/>
+    </table>
+
+    <table name = "docTreeElements_Documents" viewName = "">
+      <field name = "ID_TreeElement" bold = "false"/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "ID_TreeElement_Document" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Documents2_EN">
+
+    <table name = "docBulletinAircrafts" viewName = "">
+      <field name = "ID_BulletinAitcrafts" bold = "false"/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "IsReady" viewName = ""/>
+      <field name = "ID_Bulletin" viewName = ""/>
+    </table>
+
+    <table name = "docBulletins" viewName = "">
+      <field name = "IsReady" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "ID_Bulletin" viewName = ""/>
+    </table>
+
+    <table name = "docChanges" viewName = "">
+      <field name = "ID_Change" bold = "false"/>
+      <field name = "ID_BaseDoc" viewName = ""/>
+      <field name = "ID_AddDoc" viewName = ""/>
+    </table>
+
+    <table name = "docDocTypes" viewName = "">
+      <field name = "ID_DocType" bold = "false"/>
+      <field name = "TypeName" viewName = ""/>
+    </table>
+
+    <table name = "docDocuments" viewName = "">
+      <field name = "ID_Document" bold = "false"/>
+      <field name = "dtRegistration" viewName = ""/>
+      <field name = "sDescription" viewName = ""/>
+      <field name = "sSenderCreator" viewName = ""/>
+      <field name = "sSenderOrganization" viewName = ""/>
+      <field name = "ID_Executor" viewName = ""/>
+      <field name = "dtRedLine" viewName = ""/>
+      <field name = "sName" viewName = ""/>
+      <field name = "ID_DocumentParent" viewName = ""/>
+      <field name = "sSenderToOrganization" viewName = ""/>
+      <field name = "sSenderToSotrudnik" viewName = ""/>
+      <field name = "sRecieverDocumentNumber" viewName = ""/>
+      <field name = "ID_RecieverRegistrator" viewName = ""/>
+      <field name = "sSenderDocumentNumber" viewName = ""/>
+      <field name = "dtRecieverDocumentData" viewName = ""/>
+      <field name = "intPages" viewName = ""/>
+      <field name = "ID_Priority" viewName = ""/>
+      <field name = "dtSenderDocumentData" viewName = ""/>
+      <field name = "ID_DocType" viewName = ""/>
+      <field name = "sSenderMainExecutor" viewName = ""/>
+      <field name = "sSenderMainExecutorInfo" viewName = ""/>
+      <field name = "sRecieverRegistrator" viewName = ""/>
+      <field name = "sRecieverRegistratorInfo" viewName = ""/>
+      <field name = "sReciExecutor" viewName = ""/>
+      <field name = "sReciExecutorInfo" viewName = ""/>
+      <field name = "sAdditions" viewName = ""/>
+    </table>
+
+    <table name = "docDocumentsMessages" viewName = "">
+      <field name = "ID_DocumentMessage" bold = "false"/>
+      <field name = "ID_Message" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "ID_DocumentAdd" viewName = ""/>
+    </table>
+
+    <table name = "docFileFile" viewName = "">
+      <field name = "ID_FileFile" bold = "false"/>
+      <field name = "Source" viewName = ""/>
+    </table>
+
+    <table name = "docFiles" viewName = "">
+      <field name = "ID_File" bold = "false"/>
+      <field name = "sFileName" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "dtAdded" viewName = ""/>
+      <field name = "FileVersion" viewName = ""/>
+      <field name = "ID_FileFile" viewName = ""/>
+      <field name = "sFileID" viewName = ""/>
+    </table>
+
+    <table name = "docMesagesKinds" viewName = "">
+      <field name = "ID_MessageKind" bold = "false"/>
+      <field name = "MessageDescription" viewName = ""/>
+      <field name = "ShortMessageDescription" viewName = ""/>
+    </table>
+
+    <table name = "docMessages" viewName = "">
+      <field name = "ID_Message" bold = "false"/>
+      <field name = "ID_MainMessage" viewName = ""/>
+      <field name = "ID_ParentMessage" viewName = ""/>
+      <field name = "ID_MessageKind" viewName = ""/>
+      <field name = "ID_DutyMan" viewName = ""/>
+      <field name = "ID_ExecutorMan" viewName = ""/>
+      <field name = "fMainExecutor" viewName = ""/>
+      <field name = "fMessageReady" viewName = ""/>
+      <field name = "MessageName" viewName = ""/>
+    </table>
+
+    <table name = "docPriority" viewName = "">
+      <field name = "ID_Priority" bold = "false"/>
+      <field name = "Description" viewName = ""/>
+    </table>
+
+    <table name = "docRenews" viewName = "">
+      <field name = "ID_Renew" bold = "false"/>
+      <field name = "ID_OldVersion" viewName = ""/>
+      <field name = "ID_NewVersion" viewName = ""/>
+    </table>
+
+    <table name = "docTreeElements" viewName = "">
+      <field name = "ID_TreeElement" bold = "false"/>
+      <field name = "ID_ParentTreeElement" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "orderTree" viewName = ""/>
+      <field name = "documentsIncluded" viewName = ""/>
+    </table>
+
+    <table name = "docTreeElements_Documents" viewName = "">
+      <field name = "ID_TreeElement" bold = "false"/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "ID_TreeElement_Document" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Formular_RU">
+
+    <table name = "AircraftBaseReplace" viewName = "">
+      <field name = "ID_AircraftBaseReplace" bold = "false"/>
+      <field name = "ID_IZD_Unit" viewName = ""/>
+      <field name = "ID_BasementPlace" viewName = ""/>
+      <field name = "ArrivalDate" viewName = ""/>
+      <field name = "ReplaceNote" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "AttentionPointsInService" viewName = "">
+      <field name = "ID_AttentionPoint" bold = "false"/>
+      <field name = "ID_IZD_UNIT" viewName = ""/>
+      <field name = "ReportDate" viewName = ""/>
+      <field name = "EventDate" viewName = ""/>
+      <field name = "EventText" viewName = ""/>
+      <field name = "EventType" viewName = ""/>
+      <field name = "ENG_EventText" viewName = ""/>
+      <field name = "GUID_Person" viewName = ""/>
+      <field name = "GUID_Document" viewName = ""/>
+      <field name = "GUID_Fault" viewName = ""/>
+      <field name = "GUID_JobInJPS" viewName = ""/>
+      <field name = "IsCritical" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "ID_JobType" viewName = ""/>
+      <field name = "ID_F121Bulletin" viewName = ""/>
+      <field name = "ID_F122_Instruction" viewName = ""/>
+      <field name = "ID_User_ToRetraining" viewName = ""/>
+      <field name = "ID_OriginAttentionPoint" viewName = ""/>
+      <field name = "ID_InstalledItem" viewName = ""/>
+    </table>
+
+    <table name = "BasementPlaces" viewName = "">
+      <field name = "ID_BasementPlace" bold = "false"/>
+      <field name = "BasementPlaceName" viewName = ""/>
+      <field name = "BasementPlaceNote" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F10_Common" viewName = "">
+      <field name = "ID_F10" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "F102_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F10_Operating" viewName = "">
+      <field name = "ID_F10_Operating" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F10" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F101" viewName = "">
+      <field name = "ID_F101" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F101_2" viewName = ""/>
+      <field name = "F101_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F101_Operating" viewName = "">
+      <field name = "ID_F101_Operating" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F101" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F11" viewName = "">
+      <field name = "ID_F11" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "A02" viewName = ""/>
+      <field name = "F11_2" viewName = ""/>
+      <field name = "F11_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ReglamentTaskType" viewName = ""/>
+      <field name = "OperatingNote" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F121" viewName = "">
+      <field name = "ID_F121" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "F121_5" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "JobDoneBy" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F122" viewName = "">
+      <field name = "ID_F122" bold = "false"/>
+      <field name = "A02" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F122_5" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "JobDoneBy" viewName = ""/>
+      <field name = "MustDoneBeforeDate" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F131" viewName = "">
+      <field name = "ID_F131" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F131_2a" viewName = ""/>
+      <field name = "F131_2" viewName = ""/>
+      <field name = "F131_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F133" viewName = "">
+      <field name = "ID_F133" bold = "false"/>
+      <field name = "F133_6" viewName = ""/>
+      <field name = "F133_5" viewName = ""/>
+      <field name = "F133_4" viewName = ""/>
+      <field name = "F133_3" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ItemCode" viewName = ""/>
+      <field name = "FactoryNumber" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F134" viewName = "">
+      <field name = "ID_F134" bold = "false"/>
+      <field name = "STAT_S_3b1" viewName = ""/>
+      <field name = "STAT_S_3a1" viewName = ""/>
+      <field name = "F134_9" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F134_6" viewName = ""/>
+      <field name = "F134_5" viewName = ""/>
+      <field name = "F134_4" viewName = ""/>
+      <field name = "F134_3" viewName = ""/>
+      <field name = "F134_2" viewName = ""/>
+      <field name = "F134_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F141" viewName = "">
+      <field name = "ID_F141" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F141_3" viewName = ""/>
+      <field name = "F141_2" viewName = ""/>
+      <field name = "F141_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F142" viewName = "">
+      <field name = "ID_F142" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "F142_4" viewName = ""/>
+      <field name = "F142_3" viewName = ""/>
+      <field name = "F142_2" viewName = ""/>
+      <field name = "F142_1" viewName = ""/>
+      <field name = "F142_7" viewName = ""/>
+      <field name = "F142_6" viewName = ""/>
+      <field name = "F142_5" viewName = ""/>
+      <field name = "F142_4b" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F142_Operating" viewName = "">
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F142_Operating" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "ID_F142" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F15" viewName = "">
+      <field name = "ID_F15" bold = "false"/>
+      <field name = "F15_7" viewName = ""/>
+      <field name = "F15_6" viewName = ""/>
+      <field name = "F15_3" viewName = ""/>
+      <field name = "F15_2" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F15_OperatingOnRepair" viewName = "">
+      <field name = "ID_F15_OperatingOnRepair" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F15" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F16_OperationNotes" viewName = "">
+      <field name = "ID_OperatingNotes" bold = "false"/>
+      <field name = "Note" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F2_TechData" viewName = "">
+      <field name = "ID_F2" bold = "false"/>
+      <field name = "TechData" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F3_IndividualFeature" viewName = "">
+      <field name = "ID_F3" bold = "false"/>
+      <field name = "FeatureText" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "FeatureTextLoc" viewName = ""/>
+    </table>
+
+    <table name = "F41" viewName = "">
+      <field name = "ID_F41" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F41_9" viewName = ""/>
+      <field name = "F41_4" viewName = ""/>
+      <field name = "F41_3" viewName = ""/>
+      <field name = "F41_Note" viewName = ""/>
+      <field name = "IsLimitedResource" viewName = ""/>
+      <field name = "FolderNumber" viewName = ""/>
+      <field name = "FolderPosition" viewName = ""/>
+      <field name = "F_03" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXE" viewName = ""/>
+      <field name = "ALTLCNXE" viewName = ""/>
+      <field name = "LCNTYPXE" viewName = ""/>
+      <field name = "Item_ID_IZD_UNIT" viewName = ""/>
+      <field name = "Aircraft_ID_IZD_UNIT" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "F41_FormularKeeper_Mounth" viewName = ""/>
+      <field name = "F41_FormularKeeper_DisMounth" viewName = ""/>
+    </table>
+
+    <table name = "F41a" viewName = "">
+      <field name = "ID_F41a" bold = "false"/>
+      <field name = "ID_F41" viewName = ""/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F42" viewName = "">
+      <field name = "ID_F42" bold = "false"/>
+      <field name = "F42_3" viewName = ""/>
+      <field name = "F42_2" viewName = ""/>
+      <field name = "F42_1" viewName = ""/>
+      <field name = "F42_6" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "F42_Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F43" viewName = "">
+      <field name = "ID_F43" bold = "false"/>
+      <field name = "F43_4a" viewName = ""/>
+      <field name = "F43_4b" viewName = ""/>
+      <field name = "F43_4c" viewName = ""/>
+      <field name = "ID_IZD_UNIT" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F43_ResourceOperating" viewName = "">
+      <field name = "ID_F43_Operating" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F43" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F52" viewName = "">
+      <field name = "ID_F52" bold = "false"/>
+      <field name = "F50_4" viewName = ""/>
+      <field name = "F50_6" viewName = ""/>
+      <field name = "F50_3" viewName = ""/>
+      <field name = "F50_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "F52_Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F62" viewName = "">
+      <field name = "ID_F62" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "A02" viewName = ""/>
+      <field name = "F62_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F62_ResourceValues" viewName = "">
+      <field name = "ID_F62_ResourceValues" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F62" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F71" viewName = "">
+      <field name = "ID_F71" bold = "false"/>
+      <field name = "Date_Customer" viewName = ""/>
+      <field name = "CustomerInfo" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ControllerInfo" viewName = ""/>
+      <field name = "Date_Controller" viewName = ""/>
+      <field name = "DirectorInfo" viewName = ""/>
+      <field name = "Date_Director" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F8" viewName = "">
+      <field name = "ID_F8" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F8_3" viewName = ""/>
+      <field name = "F8_2" viewName = ""/>
+      <field name = "F8_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "MesureUnit" viewName = ""/>
+      <field name = "IsConservation" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "OperationType" viewName = ""/>
+      <field name = "F8_2Loc" viewName = ""/>
+    </table>
+
+    <table name = "F91" viewName = "">
+      <field name = "ID_F91" bold = "false"/>
+      <field name = "F91_3" viewName = ""/>
+      <field name = "F91_2" viewName = ""/>
+      <field name = "F91_1" viewName = ""/>
+      <field name = "F91_4a" viewName = ""/>
+      <field name = "F91_5a" viewName = ""/>
+      <field name = "F91_4b" viewName = ""/>
+      <field name = "F91_5b" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "F91_6_FormularKeeper" viewName = ""/>
+    </table>
+
+    <table name = "F92" viewName = "">
+      <field name = "ID_F92" bold = "false"/>
+      <field name = "F92_4" viewName = ""/>
+      <field name = "STAT_S_3" viewName = ""/>
+      <field name = "F92_1" viewName = ""/>
+      <field name = "F92_5" viewName = ""/>
+      <field name = "F92_6" viewName = ""/>
+      <field name = "F92_7" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F93" viewName = "">
+      <field name = "ID_F93" bold = "false"/>
+      <field name = "F93_6" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F93_5" viewName = ""/>
+      <field name = "F93_4" viewName = ""/>
+      <field name = "F93_1" viewName = ""/>
+      <field name = "F93_7a" viewName = ""/>
+      <field name = "F93_7b" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "Formular" viewName = "">
+      <field name = "ID_Formular" bold = "false"/>
+      <field name = "F_05" viewName = ""/>
+      <field name = "F_04" viewName = ""/>
+      <field name = "F_03" viewName = ""/>
+      <field name = "ID_IZD_UNIT" viewName = ""/>
+      <field name = "IsRequestOnReplace" viewName = ""/>
+      <field name = "WarrantyData" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "PasportReferenceNumber" viewName = ""/>
+    </table>
+
+    <table name = "Ids" viewName = "">
+      <field name = "AircraftBaseReplace" viewName = ""/>
+      <field name = "AttentionPointsInService" viewName = ""/>
+      <field name = "BasementPlaces" viewName = ""/>
+      <field name = "F10_Common" viewName = ""/>
+      <field name = "F10_Operating" viewName = ""/>
+      <field name = "F101" viewName = ""/>
+      <field name = "F101_Operating" viewName = ""/>
+      <field name = "F11" viewName = ""/>
+      <field name = "F121" viewName = ""/>
+      <field name = "F122" viewName = ""/>
+      <field name = "F131" viewName = ""/>
+      <field name = "F133" viewName = ""/>
+      <field name = "F134" viewName = ""/>
+      <field name = "F141" viewName = ""/>
+      <field name = "F142" viewName = ""/>
+      <field name = "F142_Operating" viewName = ""/>
+      <field name = "F15" viewName = ""/>
+      <field name = "F15_OperatingOnRepair" viewName = ""/>
+      <field name = "F16_OperationNotes" viewName = ""/>
+      <field name = "F2_TechData" viewName = ""/>
+      <field name = "F3_IndividualFeature" viewName = ""/>
+      <field name = "F41" viewName = ""/>
+      <field name = "F41a" viewName = ""/>
+      <field name = "F42" viewName = ""/>
+      <field name = "F43" viewName = ""/>
+      <field name = "F43_ResourceOperating" viewName = ""/>
+      <field name = "F52" viewName = ""/>
+      <field name = "F62" viewName = ""/>
+      <field name = "F62_ResourceValues" viewName = ""/>
+      <field name = "F71" viewName = ""/>
+      <field name = "F8" viewName = ""/>
+      <field name = "F91" viewName = ""/>
+      <field name = "F93" viewName = ""/>
+      <field name = "Formular" viewName = ""/>
+      <field name = "IZD_UNIT" viewName = ""/>
+      <field name = "OperatingAttributes" viewName = ""/>
+      <field name = "OperatingClassificator" viewName = ""/>
+      <field name = "OperatingClassificator_Items" viewName = ""/>
+      <field name = "Reports" viewName = ""/>
+    </table>
+
+    <table name = "IZD_UNIT" viewName = "">
+      <field name = "ID_IZD_UNIT" bold = "false"/>
+      <field name = "FactoryNumber" viewName = ""/>
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "ItemCode_REFNUMHA" viewName = ""/>
+      <field name = "Manufacture" viewName = ""/>
+      <field name = "ItemType_WRKUCDHG" viewName = ""/>
+      <field name = "ItemCategory" viewName = ""/>
+      <field name = "Supplier" viewName = ""/>
+      <field name = "ItemType_GUID" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "ManufacturedDate" viewName = ""/>
+      <field name = "IsOperable" viewName = ""/>
+      <field name = "FaultComment" viewName = ""/>
+      <field name = "Item_Title" viewName = ""/>
+      <field name = "Item_PartNumber" viewName = ""/>
+      <field name = "Item_Designation" viewName = ""/>
+      <field name = "Item_Title_Eng" viewName = ""/>
+      <field name = "Item_InnerFactoryNumber" viewName = ""/>
+    </table>
+
+    <table name = "OperatingAttributes" viewName = "">
+      <field name = "ID_Attribute" bold = "false"/>
+      <field name = "ResourceType_Long" viewName = ""/>
+      <field name = "MesureUnit" viewName = ""/>
+      <field name = "ResourceType_Short" viewName = ""/>
+      <field name = "IsCalculate" viewName = ""/>
+      <field name = "IsMeasuring" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "ResourceType_LongLoc" viewName = ""/>
+      <field name = "ResourceType_ShortLoc" viewName = ""/>
+    </table>
+
+    <table name = "OperatingClassificator" viewName = "">
+      <field name = "ID_OperatingClassificator" bold = "false"/>
+      <field name = "ItemType_REFNUMHA" viewName = ""/>
+      <field name = "Supplier_CAGECDXH" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "IsLimitedResourse" viewName = ""/>
+    </table>
+
+    <table name = "OperatingClassificator_Items" viewName = "">
+      <field name = "ID_ItemsOperating" bold = "false"/>
+      <field name = "ID_AccountClassificator" viewName = ""/>
+      <field name = "SortOrder" viewName = ""/>
+      <field name = "IsResource" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "IsOperating" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "IsMeasuring" viewName = ""/>
+    </table>
+
+    <table name = "Reports" viewName = "">
+      <field name = "ReportDate" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "EventDate" viewName = ""/>
+      <field name = "EventText" viewName = ""/>
+      <field name = "EventType" viewName = ""/>
+      <field name = "ID_Report" viewName = ""/>
+    </table>
+
+    <table name = "UserReadAttentionPoint" viewName = "">
+      <field name = "ID_UserReadAttentionPoint" bold = "false"/>
+      <field name = "ID_AttentionPoint" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Formular_EN">
+
+    <table name = "AircraftBaseReplace" viewName = "">
+      <field name = "ID_AircraftBaseReplace" bold = "false"/>
+      <field name = "ID_IZD_Unit" viewName = ""/>
+      <field name = "ID_BasementPlace" viewName = ""/>
+      <field name = "ArrivalDate" viewName = ""/>
+      <field name = "ReplaceNote" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "AttentionPointsInService" viewName = "">
+      <field name = "ID_AttentionPoint" bold = "false"/>
+      <field name = "ID_IZD_UNIT" viewName = ""/>
+      <field name = "ReportDate" viewName = ""/>
+      <field name = "EventDate" viewName = ""/>
+      <field name = "EventText" viewName = ""/>
+      <field name = "EventType" viewName = ""/>
+      <field name = "ENG_EventText" viewName = ""/>
+      <field name = "GUID_Person" viewName = ""/>
+      <field name = "GUID_Document" viewName = ""/>
+      <field name = "GUID_Fault" viewName = ""/>
+      <field name = "GUID_JobInJPS" viewName = ""/>
+      <field name = "IsCritical" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "ID_JobType" viewName = ""/>
+      <field name = "ID_F121Bulletin" viewName = ""/>
+      <field name = "ID_F122_Instruction" viewName = ""/>
+      <field name = "ID_User_ToRetraining" viewName = ""/>
+      <field name = "ID_OriginAttentionPoint" viewName = ""/>
+      <field name = "ID_InstalledItem" viewName = ""/>
+    </table>
+
+    <table name = "BasementPlaces" viewName = "">
+      <field name = "ID_BasementPlace" bold = "false"/>
+      <field name = "BasementPlaceName" viewName = ""/>
+      <field name = "BasementPlaceNote" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F10_Common" viewName = "">
+      <field name = "ID_F10" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "F102_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F10_Operating" viewName = "">
+      <field name = "ID_F10_Operating" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F10" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F101" viewName = "">
+      <field name = "ID_F101" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F101_2" viewName = ""/>
+      <field name = "F101_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F101_Operating" viewName = "">
+      <field name = "ID_F101_Operating" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F101" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F11" viewName = "">
+      <field name = "ID_F11" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "A02" viewName = ""/>
+      <field name = "F11_2" viewName = ""/>
+      <field name = "F11_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ReglamentTaskType" viewName = ""/>
+      <field name = "OperatingNote" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F121" viewName = "">
+      <field name = "ID_F121" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "F121_5" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "JobDoneBy" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F122" viewName = "">
+      <field name = "ID_F122" bold = "false"/>
+      <field name = "A02" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F122_5" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "JobDoneBy" viewName = ""/>
+      <field name = "MustDoneBeforeDate" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F131" viewName = "">
+      <field name = "ID_F131" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F131_2a" viewName = ""/>
+      <field name = "F131_2" viewName = ""/>
+      <field name = "F131_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F133" viewName = "">
+      <field name = "ID_F133" bold = "false"/>
+      <field name = "F133_6" viewName = ""/>
+      <field name = "F133_5" viewName = ""/>
+      <field name = "F133_4" viewName = ""/>
+      <field name = "F133_3" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ItemCode" viewName = ""/>
+      <field name = "FactoryNumber" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F134" viewName = "">
+      <field name = "ID_F134" bold = "false"/>
+      <field name = "STAT_S_3b1" viewName = ""/>
+      <field name = "STAT_S_3a1" viewName = ""/>
+      <field name = "F134_9" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F134_6" viewName = ""/>
+      <field name = "F134_5" viewName = ""/>
+      <field name = "F134_4" viewName = ""/>
+      <field name = "F134_3" viewName = ""/>
+      <field name = "F134_2" viewName = ""/>
+      <field name = "F134_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F141" viewName = "">
+      <field name = "ID_F141" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F141_3" viewName = ""/>
+      <field name = "F141_2" viewName = ""/>
+      <field name = "F141_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F142" viewName = "">
+      <field name = "ID_F142" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "F142_4" viewName = ""/>
+      <field name = "F142_3" viewName = ""/>
+      <field name = "F142_2" viewName = ""/>
+      <field name = "F142_1" viewName = ""/>
+      <field name = "F142_7" viewName = ""/>
+      <field name = "F142_6" viewName = ""/>
+      <field name = "F142_5" viewName = ""/>
+      <field name = "F142_4b" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F142_Operating" viewName = "">
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F142_Operating" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "ID_F142" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F15" viewName = "">
+      <field name = "ID_F15" bold = "false"/>
+      <field name = "F15_7" viewName = ""/>
+      <field name = "F15_6" viewName = ""/>
+      <field name = "F15_3" viewName = ""/>
+      <field name = "F15_2" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F15_OperatingOnRepair" viewName = "">
+      <field name = "ID_F15_OperatingOnRepair" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F15" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F16_OperationNotes" viewName = "">
+      <field name = "ID_OperatingNotes" bold = "false"/>
+      <field name = "Note" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F2_TechData" viewName = "">
+      <field name = "ID_F2" bold = "false"/>
+      <field name = "TechData" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F3_IndividualFeature" viewName = "">
+      <field name = "ID_F3" bold = "false"/>
+      <field name = "FeatureText" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "FeatureTextLoc" viewName = ""/>
+    </table>
+
+    <table name = "F41" viewName = "">
+      <field name = "ID_F41" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F41_9" viewName = ""/>
+      <field name = "F41_4" viewName = ""/>
+      <field name = "F41_3" viewName = ""/>
+      <field name = "F41_Note" viewName = ""/>
+      <field name = "IsLimitedResource" viewName = ""/>
+      <field name = "FolderNumber" viewName = ""/>
+      <field name = "FolderPosition" viewName = ""/>
+      <field name = "F_03" viewName = ""/>
+      <field name = "EIACODXA" viewName = ""/>
+      <field name = "LSACONXE" viewName = ""/>
+      <field name = "ALTLCNXE" viewName = ""/>
+      <field name = "LCNTYPXE" viewName = ""/>
+      <field name = "Item_ID_IZD_UNIT" viewName = ""/>
+      <field name = "Aircraft_ID_IZD_UNIT" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "F41_FormularKeeper_Mounth" viewName = ""/>
+      <field name = "F41_FormularKeeper_DisMounth" viewName = ""/>
+    </table>
+
+    <table name = "F41a" viewName = "">
+      <field name = "ID_F41a" bold = "false"/>
+      <field name = "ID_F41" viewName = ""/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F42" viewName = "">
+      <field name = "ID_F42" bold = "false"/>
+      <field name = "F42_3" viewName = ""/>
+      <field name = "F42_2" viewName = ""/>
+      <field name = "F42_1" viewName = ""/>
+      <field name = "F42_6" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ID_Document" viewName = ""/>
+      <field name = "F42_Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F43" viewName = "">
+      <field name = "ID_F43" bold = "false"/>
+      <field name = "F43_4a" viewName = ""/>
+      <field name = "F43_4b" viewName = ""/>
+      <field name = "F43_4c" viewName = ""/>
+      <field name = "ID_IZD_UNIT" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F43_ResourceOperating" viewName = "">
+      <field name = "ID_F43_Operating" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F43" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F52" viewName = "">
+      <field name = "ID_F52" bold = "false"/>
+      <field name = "F50_4" viewName = ""/>
+      <field name = "F50_6" viewName = ""/>
+      <field name = "F50_3" viewName = ""/>
+      <field name = "F50_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "F52_Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F62" viewName = "">
+      <field name = "ID_F62" bold = "false"/>
+      <field name = "STAT_S_3c" viewName = ""/>
+      <field name = "A02" viewName = ""/>
+      <field name = "F62_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F62_ResourceValues" viewName = "">
+      <field name = "ID_F62_ResourceValues" bold = "false"/>
+      <field name = "Value" viewName = ""/>
+      <field name = "ID_F62" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F71" viewName = "">
+      <field name = "ID_F71" bold = "false"/>
+      <field name = "Date_Customer" viewName = ""/>
+      <field name = "CustomerInfo" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "ControllerInfo" viewName = ""/>
+      <field name = "Date_Controller" viewName = ""/>
+      <field name = "DirectorInfo" viewName = ""/>
+      <field name = "Date_Director" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F8" viewName = "">
+      <field name = "ID_F8" bold = "false"/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F8_3" viewName = ""/>
+      <field name = "F8_2" viewName = ""/>
+      <field name = "F8_1" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "MesureUnit" viewName = ""/>
+      <field name = "IsConservation" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "OperationType" viewName = ""/>
+      <field name = "F8_2Loc" viewName = ""/>
+    </table>
+
+    <table name = "F91" viewName = "">
+      <field name = "ID_F91" bold = "false"/>
+      <field name = "F91_3" viewName = ""/>
+      <field name = "F91_2" viewName = ""/>
+      <field name = "F91_1" viewName = ""/>
+      <field name = "F91_4a" viewName = ""/>
+      <field name = "F91_5a" viewName = ""/>
+      <field name = "F91_4b" viewName = ""/>
+      <field name = "F91_5b" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "F91_6_FormularKeeper" viewName = ""/>
+    </table>
+
+    <table name = "F92" viewName = "">
+      <field name = "ID_F92" bold = "false"/>
+      <field name = "F92_4" viewName = ""/>
+      <field name = "STAT_S_3" viewName = ""/>
+      <field name = "F92_1" viewName = ""/>
+      <field name = "F92_5" viewName = ""/>
+      <field name = "F92_6" viewName = ""/>
+      <field name = "F92_7" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "F93" viewName = "">
+      <field name = "ID_F93" bold = "false"/>
+      <field name = "F93_6" viewName = ""/>
+      <field name = "STAT_S_3b" viewName = ""/>
+      <field name = "STAT_S_3a" viewName = ""/>
+      <field name = "F93_5" viewName = ""/>
+      <field name = "F93_4" viewName = ""/>
+      <field name = "F93_1" viewName = ""/>
+      <field name = "F93_7a" viewName = ""/>
+      <field name = "F93_7b" viewName = ""/>
+      <field name = "ID_Formular" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+    </table>
+
+    <table name = "Formular" viewName = "">
+      <field name = "ID_Formular" bold = "false"/>
+      <field name = "F_05" viewName = ""/>
+      <field name = "F_04" viewName = ""/>
+      <field name = "F_03" viewName = ""/>
+      <field name = "ID_IZD_UNIT" viewName = ""/>
+      <field name = "IsRequestOnReplace" viewName = ""/>
+      <field name = "WarrantyData" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "PasportReferenceNumber" viewName = ""/>
+    </table>
+
+    <table name = "Ids" viewName = "">
+      <field name = "AircraftBaseReplace" viewName = ""/>
+      <field name = "AttentionPointsInService" viewName = ""/>
+      <field name = "BasementPlaces" viewName = ""/>
+      <field name = "F10_Common" viewName = ""/>
+      <field name = "F10_Operating" viewName = ""/>
+      <field name = "F101" viewName = ""/>
+      <field name = "F101_Operating" viewName = ""/>
+      <field name = "F11" viewName = ""/>
+      <field name = "F121" viewName = ""/>
+      <field name = "F122" viewName = ""/>
+      <field name = "F131" viewName = ""/>
+      <field name = "F133" viewName = ""/>
+      <field name = "F134" viewName = ""/>
+      <field name = "F141" viewName = ""/>
+      <field name = "F142" viewName = ""/>
+      <field name = "F142_Operating" viewName = ""/>
+      <field name = "F15" viewName = ""/>
+      <field name = "F15_OperatingOnRepair" viewName = ""/>
+      <field name = "F16_OperationNotes" viewName = ""/>
+      <field name = "F2_TechData" viewName = ""/>
+      <field name = "F3_IndividualFeature" viewName = ""/>
+      <field name = "F41" viewName = ""/>
+      <field name = "F41a" viewName = ""/>
+      <field name = "F42" viewName = ""/>
+      <field name = "F43" viewName = ""/>
+      <field name = "F43_ResourceOperating" viewName = ""/>
+      <field name = "F52" viewName = ""/>
+      <field name = "F62" viewName = ""/>
+      <field name = "F62_ResourceValues" viewName = ""/>
+      <field name = "F71" viewName = ""/>
+      <field name = "F8" viewName = ""/>
+      <field name = "F91" viewName = ""/>
+      <field name = "F93" viewName = ""/>
+      <field name = "Formular" viewName = ""/>
+      <field name = "IZD_UNIT" viewName = ""/>
+      <field name = "OperatingAttributes" viewName = ""/>
+      <field name = "OperatingClassificator" viewName = ""/>
+      <field name = "OperatingClassificator_Items" viewName = ""/>
+      <field name = "Reports" viewName = ""/>
+    </table>
+
+    <table name = "IZD_UNIT" viewName = "">
+      <field name = "ID_IZD_UNIT" bold = "false"/>
+      <field name = "FactoryNumber" viewName = ""/>
+      <field name = "CAGECDXH" viewName = ""/>
+      <field name = "ItemCode_REFNUMHA" viewName = ""/>
+      <field name = "Manufacture" viewName = ""/>
+      <field name = "ItemType_WRKUCDHG" viewName = ""/>
+      <field name = "ItemCategory" viewName = ""/>
+      <field name = "Supplier" viewName = ""/>
+      <field name = "ItemType_GUID" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "ManufacturedDate" viewName = ""/>
+      <field name = "IsOperable" viewName = ""/>
+      <field name = "FaultComment" viewName = ""/>
+      <field name = "Item_Title" viewName = ""/>
+      <field name = "Item_PartNumber" viewName = ""/>
+      <field name = "Item_Designation" viewName = ""/>
+      <field name = "Item_Title_Eng" viewName = ""/>
+      <field name = "Item_InnerFactoryNumber" viewName = ""/>
+    </table>
+
+    <table name = "OperatingAttributes" viewName = "">
+      <field name = "ID_Attribute" bold = "false"/>
+      <field name = "ResourceType_Long" viewName = ""/>
+      <field name = "MesureUnit" viewName = ""/>
+      <field name = "ResourceType_Short" viewName = ""/>
+      <field name = "IsCalculate" viewName = ""/>
+      <field name = "IsMeasuring" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "ResourceType_LongLoc" viewName = ""/>
+      <field name = "ResourceType_ShortLoc" viewName = ""/>
+    </table>
+
+    <table name = "OperatingClassificator" viewName = "">
+      <field name = "ID_OperatingClassificator" bold = "false"/>
+      <field name = "ItemType_REFNUMHA" viewName = ""/>
+      <field name = "Supplier_CAGECDXH" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "IsLimitedResourse" viewName = ""/>
+    </table>
+
+    <table name = "OperatingClassificator_Items" viewName = "">
+      <field name = "ID_ItemsOperating" bold = "false"/>
+      <field name = "ID_AccountClassificator" viewName = ""/>
+      <field name = "SortOrder" viewName = ""/>
+      <field name = "IsResource" viewName = ""/>
+      <field name = "ID_Attribute" viewName = ""/>
+      <field name = "IsOperating" viewName = ""/>
+      <field name = "_GUID" viewName = ""/>
+      <field name = "_UpdateTime" viewName = ""/>
+      <field name = "_UserName" viewName = ""/>
+      <field name = "IsMeasuring" viewName = ""/>
+    </table>
+
+    <table name = "Reports" viewName = "">
+      <field name = "ReportDate" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "EventDate" viewName = ""/>
+      <field name = "EventText" viewName = ""/>
+      <field name = "EventType" viewName = ""/>
+      <field name = "ID_Report" viewName = ""/>
+    </table>
+
+    <table name = "UserReadAttentionPoint" viewName = "">
+      <field name = "ID_UserReadAttentionPoint" bold = "false"/>
+      <field name = "ID_AttentionPoint" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_ItemsAccount_RU">
+
+    <table name = "Account_Items" viewName = "">
+      <field name = "ID_ItemAccount" bold = "false"/>
+      <field name = "ID_Item" viewName = ""/>
+      <field name = "OrderAccountNumber" viewName = ""/>
+      <field name = "ID_Org_AccountBookOwner" viewName = ""/>
+      <field name = "ID_Doc_ProofOutcoming" viewName = ""/>
+      <field name = "ID_Doc_ProofIncoming" viewName = ""/>
+      <field name = "Date_incoming" viewName = ""/>
+      <field name = "DiscardOrLeave" viewName = ""/>
+      <field name = "Org_To" viewName = ""/>
+      <field name = "Org_From" viewName = ""/>
+      <field name = "Date_DiscardLeave" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "ID_Org_Placement" viewName = ""/>
+      <field name = "AccountBookNumber" viewName = ""/>
+    </table>
+
+    <table name = "Account_SNOKPA" viewName = "">
+      <field name = "ID_Account_SNOKPA" bold = "false"/>
+      <field name = "ID_Item" viewName = ""/>
+      <field name = "ID_OrganizationOwner" viewName = ""/>
+    </table>
+
+    <table name = "Account_SupportItems" viewName = "">
+      <field name = "ID_Account_SupportItems" bold = "false"/>
+      <field name = "ID_Item" viewName = ""/>
+      <field name = "ID_OrganizationOwner" viewName = ""/>
+    </table>
+
+    <table name = "FAP_A50_1Account_Aircrafts" viewName = "">
+      <field name = "ID_AircraftAccount" bold = "false"/>
+      <field name = "FAP_A50_1_14_ReportOutcome" viewName = ""/>
+      <field name = "FAP_A50_1_10_ReportIncoming" viewName = ""/>
+      <field name = "AircraftSeria" viewName = ""/>
+      <field name = "ID_ItemAccount" viewName = ""/>
+      <field name = "CraftNumber" viewName = ""/>
+    </table>
+
+    <table name = "FAP_A50_2Account_Engines" viewName = "">
+      <field name = "FAP_A50_2_15_ReportOutcoming" viewName = ""/>
+      <field name = "FAP_A50_2_11_ReportIncoming" viewName = ""/>
+      <field name = "FAP_A50_2_6_NumRepairsFromSNE" viewName = ""/>
+      <field name = "FAP_A50_2_7_IDAircraft" viewName = ""/>
+      <field name = "ID_ItemAccount" viewName = ""/>
+      <field name = "ID_EnginesAccount" viewName = ""/>
+    </table>
+
+    <table name = "FAP_A50_3Account_DetachItems" viewName = "">
+      <field name = "ID_Aircraft" bold = "false"/>
+      <field name = "FAP_A50_3_7_IDAnswerableMan" viewName = ""/>
+      <field name = "ID_ItemAccount" viewName = ""/>
+      <field name = "ATO_Placement" viewName = ""/>
+      <field name = "ID_AccountDetachItems" viewName = ""/>
+    </table>
+
+  </dbName>
+  
+  <dbName name = "UPE_MM2_ItemsAccount_EN">
+
+    <table name = "Account_Items" viewName = "">
+      <field name = "ID_ItemAccount" bold = "false"/>
+      <field name = "ID_Item" viewName = ""/>
+      <field name = "OrderAccountNumber" viewName = ""/>
+      <field name = "ID_Org_AccountBookOwner" viewName = ""/>
+      <field name = "ID_Doc_ProofOutcoming" viewName = ""/>
+      <field name = "ID_Doc_ProofIncoming" viewName = ""/>
+      <field name = "Date_incoming" viewName = ""/>
+      <field name = "DiscardOrLeave" viewName = ""/>
+      <field name = "Org_To" viewName = ""/>
+      <field name = "Org_From" viewName = ""/>
+      <field name = "Date_DiscardLeave" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "ID_Org_Placement" viewName = ""/>
+      <field name = "AccountBookNumber" viewName = ""/>
+    </table>
+
+    <table name = "Account_SNOKPA" viewName = "">
+      <field name = "ID_Account_SNOKPA" bold = "false"/>
+      <field name = "ID_Item" viewName = ""/>
+      <field name = "ID_OrganizationOwner" viewName = ""/>
+    </table>
+
+    <table name = "Account_SupportItems" viewName = "">
+      <field name = "ID_Account_SupportItems" bold = "false"/>
+      <field name = "ID_Item" viewName = ""/>
+      <field name = "ID_OrganizationOwner" viewName = ""/>
+    </table>
+
+    <table name = "FAP_A50_1Account_Aircrafts" viewName = "">
+      <field name = "ID_AircraftAccount" bold = "false"/>
+      <field name = "FAP_A50_1_14_ReportOutcome" viewName = ""/>
+      <field name = "FAP_A50_1_10_ReportIncoming" viewName = ""/>
+      <field name = "AircraftSeria" viewName = ""/>
+      <field name = "ID_ItemAccount" viewName = ""/>
+      <field name = "CraftNumber" viewName = ""/>
+    </table>
+
+    <table name = "FAP_A50_2Account_Engines" viewName = "">
+      <field name = "FAP_A50_2_15_ReportOutcoming" viewName = ""/>
+      <field name = "FAP_A50_2_11_ReportIncoming" viewName = ""/>
+      <field name = "FAP_A50_2_6_NumRepairsFromSNE" viewName = ""/>
+      <field name = "FAP_A50_2_7_IDAircraft" viewName = ""/>
+      <field name = "ID_ItemAccount" viewName = ""/>
+      <field name = "ID_EnginesAccount" viewName = ""/>
+    </table>
+
+    <table name = "FAP_A50_3Account_DetachItems" viewName = "">
+      <field name = "ID_Aircraft" bold = "false"/>
+      <field name = "FAP_A50_3_7_IDAnswerableMan" viewName = ""/>
+      <field name = "ID_ItemAccount" viewName = ""/>
+      <field name = "ATO_Placement" viewName = ""/>
+      <field name = "ID_AccountDetachItems" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_JPS_RU">
+
+    <table name = "Faults" viewName = "">
+      <field name = "ID_Fault" bold = "false"/>
+      <field name = "FaultFoundDate" viewName = ""/>
+      <field name = "FaultRemoveDate" viewName = ""/>
+      <field name = "FaultDescription" viewName = ""/>
+      <field name = "FaultDescription_OK" viewName = ""/>
+      <field name = "FaultNote" viewName = ""/>
+      <field name = "System_EIAC" viewName = ""/>
+      <field name = "System_LCN" viewName = ""/>
+      <field name = "System_ALCN" viewName = ""/>
+      <field name = "System_LCNType" viewName = ""/>
+      <field name = "System_GUID" viewName = ""/>
+      <field name = "ID_Journal" viewName = ""/>
+      <field name = "FaultDescription_Engineer" viewName = ""/>
+      <field name = "ID_KUN" viewName = ""/>
+      <field name = "ID_Job_FaultRemove" viewName = ""/>
+      <field name = "ID_Job_FaultFound" viewName = ""/>
+      <field name = "ID_KUN2" viewName = ""/>
+      <field name = "WhatIsDoneToEliminate" viewName = ""/>
+      <field name = "ID_ExecuteMan" viewName = ""/>
+      <field name = "ID_InspectMan" viewName = ""/>
+      <field name = "ID_ChiefEngineer" viewName = ""/>
+      <field name = "ID_ObjControlEngineer" viewName = ""/>
+    </table>
+
+    <table name = "FlightPrepareControlList" viewName = "">
+      <field name = "ID_FlightControlList" bold = "false"/>
+      <field name = "ID_Journal" viewName = ""/>
+      <field name = "FlightsDate" viewName = ""/>
+      <field name = "ID_PersonAllowFlight" viewName = ""/>
+      <field name = "ID_AircraftCommander" viewName = ""/>
+      <field name = "ID_SecondTechnic" viewName = ""/>
+    </table>
+
+    <table name = "ImportFaults" viewName = "">
+      <field name = "FlyingDate" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "ID_Import" viewName = ""/>
+      <field name = "TypeLA" viewName = ""/>
+      <field name = "FlyingTime" viewName = ""/>
+      <field name = "PilotName" viewName = ""/>
+      <field name = "PilotFlyCount" viewName = ""/>
+      <field name = "Exersice" viewName = ""/>
+      <field name = "StartingWeight_1" viewName = ""/>
+      <field name = "StartingWeight_2" viewName = ""/>
+      <field name = "StartingWeight_3" viewName = ""/>
+      <field name = "StartingWeight_4" viewName = ""/>
+      <field name = "StartingWeight_5" viewName = ""/>
+      <field name = "StartingWeight_6" viewName = ""/>
+      <field name = "CargoCode_1" viewName = ""/>
+      <field name = "CargoCode_2" viewName = ""/>
+      <field name = "FixedSuspensionWeight_1" viewName = ""/>
+      <field name = "FixedSuspensionWeight_2" viewName = ""/>
+      <field name = "FlightTime" viewName = ""/>
+      <field name = "ProcessingTime" viewName = ""/>
+      <field name = "Faulting" viewName = ""/>
+      <field name = "bySP" viewName = ""/>
+      <field name = "ExpressTime" viewName = ""/>
+      <field name = "ExpertName" viewName = ""/>
+      <field name = "ExpertTime" viewName = ""/>
+      <field name = "FlyingCount" viewName = ""/>
+      <field name = "SuspensionVariant" viewName = ""/>
+      <field name = "Sign" viewName = ""/>
+      <field name = "ID_ImportFaults" viewName = ""/>
+    </table>
+
+    <table name = "ImportFaultsDetail" viewName = "">
+      <field name = "Code" viewName = ""/>
+      <field name = "D" viewName = ""/>
+      <field name = "TimePeriod" viewName = ""/>
+      <field name = "Parameters" viewName = ""/>
+      <field name = "ID_string" viewName = ""/>
+      <field name = "ID_Import" viewName = ""/>
+      <field name = "GotoFaults" viewName = ""/>
+      <field name = "ID_ImportFaults" viewName = ""/>
+    </table>
+
+    <table name = "ImportXLS" viewName = "">
+      <field name = "FlyingDate" viewName = ""/>
+      <field name = "CraftNumber" viewName = ""/>
+      <field name = "TypeLA" viewName = ""/>
+      <field name = "FlyingTime" viewName = ""/>
+      <field name = "PilotName" viewName = ""/>
+      <field name = "PilotFlyCount" viewName = ""/>
+      <field name = "Exersice" viewName = ""/>
+      <field name = "StartingWeight_1" viewName = ""/>
+      <field name = "StartingWeight_2" viewName = ""/>
+      <field name = "StartingWeight_3" viewName = ""/>
+      <field name = "StartingWeight_4" viewName = ""/>
+      <field name = "StartingWeight_5" viewName = ""/>
+      <field name = "StartingWeight_6" viewName = ""/>
+      <field name = "CargoCode_1" viewName = ""/>
+      <field name = "CargoCode_2" viewName = ""/>
+      <field name = "FixedSuspensionWeight_1" viewName = ""/>
+      <field name = "FixedSuspensionWeight_2" viewName = ""/>
+      <field name = "FlightTime" viewName = ""/>
+      <field name = "ProcessingTime" viewName = ""/>
+      <field name = "Faulting" viewName = ""/>
+      <field name = "bySP" viewName = ""/>
+      <field name = "ExpressTime" viewName = ""/>
+      <field name = "ExpertName" viewName = ""/>
+      <field name = "ExpertTime" viewName = ""/>
+      <field name = "FlyingCount" viewName = ""/>
+      <field name = "SuspensionVariant" viewName = ""/>
+      <field name = "Sign" viewName = ""/>
+      <field name = "ID_ImportXLS" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "ImportXLSDetail" viewName = "">
+      <field name = "Code" viewName = ""/>
+      <field name = "D" viewName = ""/>
+      <field name = "TimePeriod" viewName = ""/>
+      <field name = "Parameters" viewName = ""/>
+      <field name = "ID_string" viewName = ""/>
+      <field name = "ID_ImportXLSDetail" viewName = ""/>
+      <field name = "GotoFaults" viewName = ""/>
+      <field name = "ID_ImportXLS" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "JobTypes" viewName = "">
+      <field name = "ID_JobType" bold = "false"/>
+      <field name = "JobTypeCaption" viewName = ""/>
+    </table>
+
+    <table name = "JPS" viewName = "">
+      <field name = "ID_Journal" bold = "false"/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "KUN" viewName = "">
+      <field name = "ID_KUN" bold = "false"/>
+      <field name = "Month_fault" viewName = ""/>
+      <field name = "Year_fault" viewName = ""/>
+      <field name = "Speciality" viewName = ""/>
+      <field name = "Technics_type" viewName = ""/>
+      <field name = "Causality" viewName = ""/>
+      <field name = "What_work_during" viewName = ""/>
+      <field name = "Consequences" viewName = ""/>
+      <field name = "Method_removal" viewName = ""/>
+      <field name = "Method_detecting" viewName = ""/>
+      <field name = "Is_workers_mistake" viewName = ""/>
+      <field name = "Is_garantee_plane" viewName = ""/>
+      <field name = "Is_garantee_system" viewName = ""/>
+      <field name = "Reclamation" viewName = ""/>
+      <field name = "Sign_KUN" viewName = ""/>
+      <field name = "LA_creation_plant_adress" viewName = ""/>
+      <field name = "LA_serial_number" viewName = ""/>
+      <field name = "LA_worktimeFromBegin" viewName = ""/>
+      <field name = "LA_worktimeFromRepair" viewName = ""/>
+      <field name = "LA_month" viewName = ""/>
+      <field name = "LA_year" viewName = ""/>
+      <field name = "LA_repairplant_adress" viewName = ""/>
+      <field name = "LA_repair_month" viewName = ""/>
+      <field name = "LA_repair_year" viewName = ""/>
+      <field name = "Engine_title" viewName = ""/>
+      <field name = "Engine_plant_adress" viewName = ""/>
+      <field name = "Engine_serial_number" viewName = ""/>
+      <field name = "Engine_worktimeFromBegin" viewName = ""/>
+      <field name = "Engine_worktimeFromRepair" viewName = ""/>
+      <field name = "Engine_month" viewName = ""/>
+      <field name = "Engine_year" viewName = ""/>
+      <field name = "Engine_repairplant_adress" viewName = ""/>
+      <field name = "Engine_repair_month" viewName = ""/>
+      <field name = "Engine_repair_year" viewName = ""/>
+      <field name = "Unit_title" viewName = ""/>
+      <field name = "Unit_plant_adress" viewName = ""/>
+      <field name = "Unit_serial_number" viewName = ""/>
+      <field name = "Unit_worktimeFromBegin" viewName = ""/>
+      <field name = "Unit_worktimeFromRepair" viewName = ""/>
+      <field name = "Unit_month" viewName = ""/>
+      <field name = "Unit_year" viewName = ""/>
+      <field name = "Unit_repairplant_adress" viewName = ""/>
+      <field name = "Unit_repair_month" viewName = ""/>
+      <field name = "Unit_repair_year" viewName = ""/>
+      <field name = "System_code" viewName = ""/>
+      <field name = "System_title" viewName = ""/>
+      <field name = "System_fault_sign" viewName = ""/>
+      <field name = "Subsystem_code" viewName = ""/>
+      <field name = "Subsystem_title" viewName = ""/>
+      <field name = "Block_fault_sign" viewName = ""/>
+      <field name = "Block_title" viewName = ""/>
+      <field name = "Part_title" viewName = ""/>
+      <field name = "Display_code" viewName = ""/>
+      <field name = "Display_title" viewName = ""/>
+      <field name = "Character_code" viewName = ""/>
+      <field name = "Detecting_time" viewName = ""/>
+      <field name = "Detecting_manhours" viewName = ""/>
+      <field name = "Removal_time" viewName = ""/>
+      <field name = "Removal_manhours" viewName = ""/>
+      <field name = "Author_name" viewName = ""/>
+      <field name = "KUN_note" viewName = ""/>
+      <field name = "Filling_month" viewName = ""/>
+      <field name = "Filling_year" viewName = ""/>
+      <field name = "Supervision_sign" viewName = ""/>
+      <field name = "KUN_entering_date" viewName = ""/>
+      <field name = "Zone" viewName = ""/>
+      <field name = "What_smena_during" viewName = ""/>
+      <field name = "LA_title" viewName = ""/>
+      <field name = "Subsystem_fault_sign" viewName = ""/>
+      <field name = "Character_title" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "KUN2" viewName = "">
+      <field name = "Group_Code" viewName = ""/>
+      <field name = "KUNType" viewName = ""/>
+      <field name = "Factory_Number" viewName = ""/>
+      <field name = "Manufacturing_Date" viewName = ""/>
+      <field name = "Aircraft_Installiation_Date" viewName = ""/>
+      <field name = "Block_Number" viewName = ""/>
+      <field name = "Main_Build" viewName = ""/>
+      <field name = "Sub_Build" viewName = ""/>
+      <field name = "Aircraft_Number" viewName = ""/>
+      <field name = "Modernization_Date" viewName = ""/>
+      <field name = "RunTime_AfterModerniz" viewName = ""/>
+      <field name = "FlysLands_AfterModerniz" viewName = ""/>
+      <field name = "Placing" viewName = ""/>
+      <field name = "Installation_Date" viewName = ""/>
+      <field name = "Last_Repair" viewName = ""/>
+      <field name = "Engine_Number" viewName = ""/>
+      <field name = "Engine_Type" viewName = ""/>
+      <field name = "Engine_Running_Time" viewName = ""/>
+      <field name = "Engine_All_RunTime" viewName = ""/>
+      <field name = "Fauit_Registration_Date" viewName = ""/>
+      <field name = "Detect_InCase" viewName = ""/>
+      <field name = "Add_Configuration" viewName = ""/>
+      <field name = "Add_Pilot_Note" viewName = ""/>
+      <field name = "Add_KARAT_info" viewName = ""/>
+      <field name = "Add_Laboratorian_Analyz" viewName = ""/>
+      <field name = "Add_Repair_Detail" viewName = ""/>
+      <field name = "General_Engineer_Notes" viewName = ""/>
+      <field name = "Require_Actions" viewName = ""/>
+      <field name = "Celler_Work_Info" viewName = ""/>
+      <field name = "Instruction_Category" viewName = ""/>
+      <field name = "Technical_Report" viewName = ""/>
+      <field name = "Report_Number" viewName = ""/>
+      <field name = "Sign_Date" viewName = ""/>
+      <field name = "ID_UserKUNSign" viewName = ""/>
+      <field name = "ID_KUN2" viewName = ""/>
+      <field name = "Engine_Number2" viewName = ""/>
+      <field name = "Engine_Type2" viewName = ""/>
+      <field name = "Engine_Running_Time2" viewName = ""/>
+      <field name = "Engine_All_RunTime2" viewName = ""/>
+      <field name = "ID_FaultItem" viewName = ""/>
+    </table>
+
+    <table name = "PilotRemarks" viewName = "">
+      <field name = "ID_PilotRemark" bold = "false"/>
+      <field name = "ExcerciseFlightNumber" viewName = ""/>
+      <field name = "Remark" viewName = ""/>
+      <field name = "ExecuteManNote" viewName = ""/>
+      <field name = "ID_Pilot" viewName = ""/>
+      <field name = "ID_ExecuteMan" viewName = ""/>
+      <field name = "ID_InspectMan" viewName = ""/>
+      <field name = "ID_FlightControlList" viewName = ""/>
+      <field name = "HasDoneMark" viewName = ""/>
+    </table>
+
+    <table name = "PlanJobs" viewName = "">
+      <field name = "ID_PlanJob" bold = "false"/>
+      <field name = "ID_ParentJob" viewName = ""/>
+      <field name = "ID_PrimaryJob" viewName = ""/>
+      <field name = "JobCaption" viewName = ""/>
+      <field name = "JobDate" viewName = ""/>
+      <field name = "StartJobTime" viewName = ""/>
+      <field name = "FinishJobTime" viewName = ""/>
+      <field name = "JobNote" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "IsMistakeJob" viewName = ""/>
+      <field name = "ID_PlaningTechnicToExecute" viewName = ""/>
+      <field name = "ID_ExecuteMan" viewName = ""/>
+      <field name = "ID_InspectMan" viewName = ""/>
+      <field name = "JobCost" viewName = ""/>
+      <field name = "PersonQualification" viewName = ""/>
+      <field name = "JobLevel" viewName = ""/>
+      <field name = "ID_JobType" viewName = ""/>
+      <field name = "ID_Journal" viewName = ""/>
+      <field name = "JobTime" viewName = ""/>
+      <field name = "IsJobGroupOpen" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "PrepareRoutes" viewName = "">
+      <field name = "ID_PrepareRoute" bold = "false"/>
+      <field name = "RouteCaption" viewName = ""/>
+      <field name = "RouteOrderNumber" viewName = ""/>
+      <field name = "ID_Execute_Flight1" viewName = ""/>
+      <field name = "ID_Inspect_Flight1" viewName = ""/>
+      <field name = "ID_Execute_Flight2" viewName = ""/>
+      <field name = "ID_Execute_Flight3" viewName = ""/>
+      <field name = "ID_Execute_Flight4" viewName = ""/>
+      <field name = "ID_Execute_Flight5" viewName = ""/>
+      <field name = "ID_Execute_Flight6" viewName = ""/>
+      <field name = "ID_Execute_Flight7" viewName = ""/>
+      <field name = "ID_Execute_FlightLast" viewName = ""/>
+      <field name = "ID_Inspect_Flight2" viewName = ""/>
+      <field name = "ID_Inspect_Flight3" viewName = ""/>
+      <field name = "ID_Inspect_Flight4" viewName = ""/>
+      <field name = "ID_Inspect_Flight5" viewName = ""/>
+      <field name = "ID_Inspect_Flight6" viewName = ""/>
+      <field name = "ID_Inspect_Flight7" viewName = ""/>
+      <field name = "ID_Inspect_FlightLast" viewName = ""/>
+      <field name = "ID_FlightControlList" viewName = ""/>
+    </table>
+
+    <table name = "ReliabilityFormulas" viewName = "">
+      <field name = "ID_formulas" bold = "false"/>
+      <field name = "ID_str" viewName = ""/>
+      <field name = "Formulas" viewName = ""/>
+      <field name = "FResult" viewName = ""/>
+      <field name = "ID_ReliabilityFormular" viewName = ""/>
+    </table>
+
+    <table name = "SOK_ReportDetails" viewName = "">
+      <field name = "ID_SOKReportDetail" bold = "false"/>
+      <field name = "Parametr" viewName = ""/>
+      <field name = "Signal" viewName = ""/>
+      <field name = "Result" viewName = ""/>
+      <field name = "Mark" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+      <field name = "ID_Report" viewName = ""/>
+    </table>
+
+    <table name = "SOK_Reports" viewName = "">
+      <field name = "ID_Report" bold = "false"/>
+      <field name = "Board_number" viewName = ""/>
+      <field name = "Serial_number" viewName = ""/>
+      <field name = "Object_of_check" viewName = ""/>
+      <field name = "Control_device" viewName = ""/>
+      <field name = "Control_program" viewName = ""/>
+      <field name = "The_check_purpose" viewName = ""/>
+      <field name = "Check_kind" viewName = ""/>
+      <field name = "Additional_data_of_check" viewName = ""/>
+      <field name = "CheckDateTime" viewName = ""/>
+      <field name = "Operator" viewName = ""/>
+      <field name = "FullFileOK" viewName = ""/>
+      <field name = "Datetime_of_addition" viewName = ""/>
+      <field name = "File_name" viewName = ""/>
+      <field name = "File_type" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "TypedPlanJobs" viewName = "">
+      <field name = "ID_TypedPlanJob" bold = "false"/>
+      <field name = "ID_PrimaryJob" viewName = ""/>
+      <field name = "ID_ParentJob" viewName = ""/>
+      <field name = "JobCaption" viewName = ""/>
+      <field name = "JobNote" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "JobCost" viewName = ""/>
+      <field name = "PersonQualification" viewName = ""/>
+      <field name = "JobLevel" viewName = ""/>
+      <field name = "ID_JobType" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "JobTime" viewName = ""/>
+      <field name = "IsJobGroupOpen" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_JPS_EN">
+
+    <table name = "Faults" viewName = "">
+      <field name = "ID_Fault" bold = "false"/>
+      <field name = "FaultFoundDate" viewName = ""/>
+      <field name = "FaultRemoveDate" viewName = ""/>
+      <field name = "FaultDescription" viewName = ""/>
+      <field name = "FaultDescription_OK" viewName = ""/>
+      <field name = "FaultNote" viewName = ""/>
+      <field name = "System_EIAC" viewName = ""/>
+      <field name = "System_LCN" viewName = ""/>
+      <field name = "System_ALCN" viewName = ""/>
+      <field name = "System_LCNType" viewName = ""/>
+      <field name = "System_GUID" viewName = ""/>
+      <field name = "ID_Journal" viewName = ""/>
+      <field name = "FaultDescription_Engineer" viewName = ""/>
+      <field name = "ID_KUN" viewName = ""/>
+      <field name = "ID_Job_FaultRemove" viewName = ""/>
+      <field name = "ID_Job_FaultFound" viewName = ""/>
+      <field name = "ID_KUN2" viewName = ""/>
+      <field name = "WhatIsDoneToEliminate" viewName = ""/>
+      <field name = "ID_ExecuteMan" viewName = ""/>
+      <field name = "ID_InspectMan" viewName = ""/>
+      <field name = "ID_ChiefEngineer" viewName = ""/>
+      <field name = "ID_ObjControlEngineer" viewName = ""/>
+    </table>
+
+    <table name = "FlightPrepareControlList" viewName = "">
+      <field name = "ID_FlightControlList" bold = "false"/>
+      <field name = "ID_Journal" viewName = ""/>
+      <field name = "FlightsDate" viewName = ""/>
+      <field name = "ID_PersonAllowFlight" viewName = ""/>
+      <field name = "ID_AircraftCommander" viewName = ""/>
+      <field name = "ID_SecondTechnic" viewName = ""/>
+    </table>
+
+    <table name = "ImportFaults" viewName = "">
+      <field name = "FlyingDate" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "ID_Import" viewName = ""/>
+      <field name = "TypeLA" viewName = ""/>
+      <field name = "FlyingTime" viewName = ""/>
+      <field name = "PilotName" viewName = ""/>
+      <field name = "PilotFlyCount" viewName = ""/>
+      <field name = "Exersice" viewName = ""/>
+      <field name = "StartingWeight_1" viewName = ""/>
+      <field name = "StartingWeight_2" viewName = ""/>
+      <field name = "StartingWeight_3" viewName = ""/>
+      <field name = "StartingWeight_4" viewName = ""/>
+      <field name = "StartingWeight_5" viewName = ""/>
+      <field name = "StartingWeight_6" viewName = ""/>
+      <field name = "CargoCode_1" viewName = ""/>
+      <field name = "CargoCode_2" viewName = ""/>
+      <field name = "FixedSuspensionWeight_1" viewName = ""/>
+      <field name = "FixedSuspensionWeight_2" viewName = ""/>
+      <field name = "FlightTime" viewName = ""/>
+      <field name = "ProcessingTime" viewName = ""/>
+      <field name = "Faulting" viewName = ""/>
+      <field name = "bySP" viewName = ""/>
+      <field name = "ExpressTime" viewName = ""/>
+      <field name = "ExpertName" viewName = ""/>
+      <field name = "ExpertTime" viewName = ""/>
+      <field name = "FlyingCount" viewName = ""/>
+      <field name = "SuspensionVariant" viewName = ""/>
+      <field name = "Sign" viewName = ""/>
+      <field name = "ID_ImportFaults" viewName = ""/>
+    </table>
+
+    <table name = "ImportFaultsDetail" viewName = "">
+      <field name = "Code" viewName = ""/>
+      <field name = "D" viewName = ""/>
+      <field name = "TimePeriod" viewName = ""/>
+      <field name = "Parameters" viewName = ""/>
+      <field name = "ID_string" viewName = ""/>
+      <field name = "ID_Import" viewName = ""/>
+      <field name = "GotoFaults" viewName = ""/>
+      <field name = "ID_ImportFaults" viewName = ""/>
+    </table>
+
+    <table name = "ImportXLS" viewName = "">
+      <field name = "FlyingDate" viewName = ""/>
+      <field name = "CraftNumber" viewName = ""/>
+      <field name = "TypeLA" viewName = ""/>
+      <field name = "FlyingTime" viewName = ""/>
+      <field name = "PilotName" viewName = ""/>
+      <field name = "PilotFlyCount" viewName = ""/>
+      <field name = "Exersice" viewName = ""/>
+      <field name = "StartingWeight_1" viewName = ""/>
+      <field name = "StartingWeight_2" viewName = ""/>
+      <field name = "StartingWeight_3" viewName = ""/>
+      <field name = "StartingWeight_4" viewName = ""/>
+      <field name = "StartingWeight_5" viewName = ""/>
+      <field name = "StartingWeight_6" viewName = ""/>
+      <field name = "CargoCode_1" viewName = ""/>
+      <field name = "CargoCode_2" viewName = ""/>
+      <field name = "FixedSuspensionWeight_1" viewName = ""/>
+      <field name = "FixedSuspensionWeight_2" viewName = ""/>
+      <field name = "FlightTime" viewName = ""/>
+      <field name = "ProcessingTime" viewName = ""/>
+      <field name = "Faulting" viewName = ""/>
+      <field name = "bySP" viewName = ""/>
+      <field name = "ExpressTime" viewName = ""/>
+      <field name = "ExpertName" viewName = ""/>
+      <field name = "ExpertTime" viewName = ""/>
+      <field name = "FlyingCount" viewName = ""/>
+      <field name = "SuspensionVariant" viewName = ""/>
+      <field name = "Sign" viewName = ""/>
+      <field name = "ID_ImportXLS" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "ImportXLSDetail" viewName = "">
+      <field name = "Code" viewName = ""/>
+      <field name = "D" viewName = ""/>
+      <field name = "TimePeriod" viewName = ""/>
+      <field name = "Parameters" viewName = ""/>
+      <field name = "ID_string" viewName = ""/>
+      <field name = "ID_ImportXLSDetail" viewName = ""/>
+      <field name = "GotoFaults" viewName = ""/>
+      <field name = "ID_ImportXLS" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "JobTypes" viewName = "">
+      <field name = "ID_JobType" bold = "false"/>
+      <field name = "JobTypeCaption" viewName = ""/>
+    </table>
+
+    <table name = "JPS" viewName = "">
+      <field name = "ID_Journal" bold = "false"/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "KUN" viewName = "">
+      <field name = "ID_KUN" bold = "false"/>
+      <field name = "Month_fault" viewName = ""/>
+      <field name = "Year_fault" viewName = ""/>
+      <field name = "Speciality" viewName = ""/>
+      <field name = "Technics_type" viewName = ""/>
+      <field name = "Causality" viewName = ""/>
+      <field name = "What_work_during" viewName = ""/>
+      <field name = "Consequences" viewName = ""/>
+      <field name = "Method_removal" viewName = ""/>
+      <field name = "Method_detecting" viewName = ""/>
+      <field name = "Is_workers_mistake" viewName = ""/>
+      <field name = "Is_garantee_plane" viewName = ""/>
+      <field name = "Is_garantee_system" viewName = ""/>
+      <field name = "Reclamation" viewName = ""/>
+      <field name = "Sign_KUN" viewName = ""/>
+      <field name = "LA_creation_plant_adress" viewName = ""/>
+      <field name = "LA_serial_number" viewName = ""/>
+      <field name = "LA_worktimeFromBegin" viewName = ""/>
+      <field name = "LA_worktimeFromRepair" viewName = ""/>
+      <field name = "LA_month" viewName = ""/>
+      <field name = "LA_year" viewName = ""/>
+      <field name = "LA_repairplant_adress" viewName = ""/>
+      <field name = "LA_repair_month" viewName = ""/>
+      <field name = "LA_repair_year" viewName = ""/>
+      <field name = "Engine_title" viewName = ""/>
+      <field name = "Engine_plant_adress" viewName = ""/>
+      <field name = "Engine_serial_number" viewName = ""/>
+      <field name = "Engine_worktimeFromBegin" viewName = ""/>
+      <field name = "Engine_worktimeFromRepair" viewName = ""/>
+      <field name = "Engine_month" viewName = ""/>
+      <field name = "Engine_year" viewName = ""/>
+      <field name = "Engine_repairplant_adress" viewName = ""/>
+      <field name = "Engine_repair_month" viewName = ""/>
+      <field name = "Engine_repair_year" viewName = ""/>
+      <field name = "Unit_title" viewName = ""/>
+      <field name = "Unit_plant_adress" viewName = ""/>
+      <field name = "Unit_serial_number" viewName = ""/>
+      <field name = "Unit_worktimeFromBegin" viewName = ""/>
+      <field name = "Unit_worktimeFromRepair" viewName = ""/>
+      <field name = "Unit_month" viewName = ""/>
+      <field name = "Unit_year" viewName = ""/>
+      <field name = "Unit_repairplant_adress" viewName = ""/>
+      <field name = "Unit_repair_month" viewName = ""/>
+      <field name = "Unit_repair_year" viewName = ""/>
+      <field name = "System_code" viewName = ""/>
+      <field name = "System_title" viewName = ""/>
+      <field name = "System_fault_sign" viewName = ""/>
+      <field name = "Subsystem_code" viewName = ""/>
+      <field name = "Subsystem_title" viewName = ""/>
+      <field name = "Block_fault_sign" viewName = ""/>
+      <field name = "Block_title" viewName = ""/>
+      <field name = "Part_title" viewName = ""/>
+      <field name = "Display_code" viewName = ""/>
+      <field name = "Display_title" viewName = ""/>
+      <field name = "Character_code" viewName = ""/>
+      <field name = "Detecting_time" viewName = ""/>
+      <field name = "Detecting_manhours" viewName = ""/>
+      <field name = "Removal_time" viewName = ""/>
+      <field name = "Removal_manhours" viewName = ""/>
+      <field name = "Author_name" viewName = ""/>
+      <field name = "KUN_note" viewName = ""/>
+      <field name = "Filling_month" viewName = ""/>
+      <field name = "Filling_year" viewName = ""/>
+      <field name = "Supervision_sign" viewName = ""/>
+      <field name = "KUN_entering_date" viewName = ""/>
+      <field name = "Zone" viewName = ""/>
+      <field name = "What_smena_during" viewName = ""/>
+      <field name = "LA_title" viewName = ""/>
+      <field name = "Subsystem_fault_sign" viewName = ""/>
+      <field name = "Character_title" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "KUN2" viewName = "">
+      <field name = "Group_Code" viewName = ""/>
+      <field name = "KUNType" viewName = ""/>
+      <field name = "Factory_Number" viewName = ""/>
+      <field name = "Manufacturing_Date" viewName = ""/>
+      <field name = "Aircraft_Installiation_Date" viewName = ""/>
+      <field name = "Block_Number" viewName = ""/>
+      <field name = "Main_Build" viewName = ""/>
+      <field name = "Sub_Build" viewName = ""/>
+      <field name = "Aircraft_Number" viewName = ""/>
+      <field name = "Modernization_Date" viewName = ""/>
+      <field name = "RunTime_AfterModerniz" viewName = ""/>
+      <field name = "FlysLands_AfterModerniz" viewName = ""/>
+      <field name = "Placing" viewName = ""/>
+      <field name = "Installation_Date" viewName = ""/>
+      <field name = "Last_Repair" viewName = ""/>
+      <field name = "Engine_Number" viewName = ""/>
+      <field name = "Engine_Type" viewName = ""/>
+      <field name = "Engine_Running_Time" viewName = ""/>
+      <field name = "Engine_All_RunTime" viewName = ""/>
+      <field name = "Fauit_Registration_Date" viewName = ""/>
+      <field name = "Detect_InCase" viewName = ""/>
+      <field name = "Add_Configuration" viewName = ""/>
+      <field name = "Add_Pilot_Note" viewName = ""/>
+      <field name = "Add_KARAT_info" viewName = ""/>
+      <field name = "Add_Laboratorian_Analyz" viewName = ""/>
+      <field name = "Add_Repair_Detail" viewName = ""/>
+      <field name = "General_Engineer_Notes" viewName = ""/>
+      <field name = "Require_Actions" viewName = ""/>
+      <field name = "Celler_Work_Info" viewName = ""/>
+      <field name = "Instruction_Category" viewName = ""/>
+      <field name = "Technical_Report" viewName = ""/>
+      <field name = "Report_Number" viewName = ""/>
+      <field name = "Sign_Date" viewName = ""/>
+      <field name = "ID_UserKUNSign" viewName = ""/>
+      <field name = "ID_KUN2" viewName = ""/>
+      <field name = "Engine_Number2" viewName = ""/>
+      <field name = "Engine_Type2" viewName = ""/>
+      <field name = "Engine_Running_Time2" viewName = ""/>
+      <field name = "Engine_All_RunTime2" viewName = ""/>
+      <field name = "ID_FaultItem" viewName = ""/>
+    </table>
+
+    <table name = "PilotRemarks" viewName = "">
+      <field name = "ID_PilotRemark" bold = "false"/>
+      <field name = "ExcerciseFlightNumber" viewName = ""/>
+      <field name = "Remark" viewName = ""/>
+      <field name = "ExecuteManNote" viewName = ""/>
+      <field name = "ID_Pilot" viewName = ""/>
+      <field name = "ID_ExecuteMan" viewName = ""/>
+      <field name = "ID_InspectMan" viewName = ""/>
+      <field name = "ID_FlightControlList" viewName = ""/>
+      <field name = "HasDoneMark" viewName = ""/>
+    </table>
+
+    <table name = "PlanJobs" viewName = "">
+      <field name = "ID_PlanJob" bold = "false"/>
+      <field name = "ID_ParentJob" viewName = ""/>
+      <field name = "ID_PrimaryJob" viewName = ""/>
+      <field name = "JobCaption" viewName = ""/>
+      <field name = "JobDate" viewName = ""/>
+      <field name = "StartJobTime" viewName = ""/>
+      <field name = "FinishJobTime" viewName = ""/>
+      <field name = "JobNote" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "IsMistakeJob" viewName = ""/>
+      <field name = "ID_PlaningTechnicToExecute" viewName = ""/>
+      <field name = "ID_ExecuteMan" viewName = ""/>
+      <field name = "ID_InspectMan" viewName = ""/>
+      <field name = "JobCost" viewName = ""/>
+      <field name = "PersonQualification" viewName = ""/>
+      <field name = "JobLevel" viewName = ""/>
+      <field name = "ID_JobType" viewName = ""/>
+      <field name = "ID_Journal" viewName = ""/>
+      <field name = "JobTime" viewName = ""/>
+      <field name = "IsJobGroupOpen" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "PrepareRoutes" viewName = "">
+      <field name = "ID_PrepareRoute" bold = "false"/>
+      <field name = "RouteCaption" viewName = ""/>
+      <field name = "RouteOrderNumber" viewName = ""/>
+      <field name = "ID_Execute_Flight1" viewName = ""/>
+      <field name = "ID_Inspect_Flight1" viewName = ""/>
+      <field name = "ID_Execute_Flight2" viewName = ""/>
+      <field name = "ID_Execute_Flight3" viewName = ""/>
+      <field name = "ID_Execute_Flight4" viewName = ""/>
+      <field name = "ID_Execute_Flight5" viewName = ""/>
+      <field name = "ID_Execute_Flight6" viewName = ""/>
+      <field name = "ID_Execute_Flight7" viewName = ""/>
+      <field name = "ID_Execute_FlightLast" viewName = ""/>
+      <field name = "ID_Inspect_Flight2" viewName = ""/>
+      <field name = "ID_Inspect_Flight3" viewName = ""/>
+      <field name = "ID_Inspect_Flight4" viewName = ""/>
+      <field name = "ID_Inspect_Flight5" viewName = ""/>
+      <field name = "ID_Inspect_Flight6" viewName = ""/>
+      <field name = "ID_Inspect_Flight7" viewName = ""/>
+      <field name = "ID_Inspect_FlightLast" viewName = ""/>
+      <field name = "ID_FlightControlList" viewName = ""/>
+    </table>
+
+    <table name = "ReliabilityFormulas" viewName = "">
+      <field name = "ID_formulas" bold = "false"/>
+      <field name = "ID_str" viewName = ""/>
+      <field name = "Formulas" viewName = ""/>
+      <field name = "FResult" viewName = ""/>
+      <field name = "ID_ReliabilityFormular" viewName = ""/>
+    </table>
+
+    <table name = "SOK_ReportDetails" viewName = "">
+      <field name = "ID_SOKReportDetail" bold = "false"/>
+      <field name = "Parametr" viewName = ""/>
+      <field name = "Signal" viewName = ""/>
+      <field name = "Result" viewName = ""/>
+      <field name = "Mark" viewName = ""/>
+      <field name = "Note" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+      <field name = "ID_Report" viewName = ""/>
+    </table>
+
+    <table name = "SOK_Reports" viewName = "">
+      <field name = "ID_Report" bold = "false"/>
+      <field name = "Board_number" viewName = ""/>
+      <field name = "Serial_number" viewName = ""/>
+      <field name = "Object_of_check" viewName = ""/>
+      <field name = "Control_device" viewName = ""/>
+      <field name = "Control_program" viewName = ""/>
+      <field name = "The_check_purpose" viewName = ""/>
+      <field name = "Check_kind" viewName = ""/>
+      <field name = "Additional_data_of_check" viewName = ""/>
+      <field name = "CheckDateTime" viewName = ""/>
+      <field name = "Operator" viewName = ""/>
+      <field name = "FullFileOK" viewName = ""/>
+      <field name = "Datetime_of_addition" viewName = ""/>
+      <field name = "File_name" viewName = ""/>
+      <field name = "File_type" viewName = ""/>
+      <field name = "ID_Fault" viewName = ""/>
+    </table>
+
+    <table name = "TypedPlanJobs" viewName = "">
+      <field name = "ID_TypedPlanJob" bold = "false"/>
+      <field name = "ID_PrimaryJob" viewName = ""/>
+      <field name = "ID_ParentJob" viewName = ""/>
+      <field name = "JobCaption" viewName = ""/>
+      <field name = "JobNote" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "JobCost" viewName = ""/>
+      <field name = "PersonQualification" viewName = ""/>
+      <field name = "JobLevel" viewName = ""/>
+      <field name = "ID_JobType" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "JobTime" viewName = ""/>
+      <field name = "IsJobGroupOpen" viewName = ""/>
+    </table>
+
+  </dbName>
+  
+  <dbName name = "UPE_MM2_Organization">
+
+    <table name = "TblAircraftDoljnost" viewName = "">
+      <field name = "ID_AircraftDoljnost" bold = "false"/>
+      <field name = "NameAircraftDoljnost" viewName = ""/>
+      <field name = "CommentAircraftDoljnost" viewName = ""/>
+    </table>
+
+    <table name = "TblAircraftShtat" viewName = "">
+      <field name = "ID_AircraftShtat" bold = "false"/>
+      <field name = "ID_AircraftDoljnost" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "QuanMen" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+    </table>
+
+    <table name = "TblChildren" viewName = "">
+      <field name = "ID_Child" bold = "false"/>
+      <field name = "NameChild" viewName = ""/>
+      <field name = "BirthdayDate" viewName = ""/>
+      <field name = "Sex" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+    <table name = "TblCollectionDraw" viewName = "">
+      <field name = "ID_CollectionDraw" bold = "false"/>
+      <field name = "CollectionDrawName" viewName = ""/>
+      <field name = "CollectionDrawDate" viewName = ""/>
+      <field name = "CollectionDrawComment" viewName = ""/>
+    </table>
+
+    <table name = "TblDoljnost" viewName = "">
+      <field name = "ID_Doljnost" bold = "false"/>
+      <field name = "NameDoljnost" viewName = ""/>
+      <field name = "CommentDoljnost" viewName = ""/>
+      <field name = "Functions" viewName = ""/>
+    </table>
+
+    <table name = "TblMillitaryRanks" viewName = "">
+      <field name = "ID_MillitaryRank" bold = "false"/>
+      <field name = "NameMillitaryRank" viewName = ""/>
+    </table>
+
+    <table name = "TblOrganization" viewName = "">
+      <field name = "ID_Organization" bold = "false"/>
+      <field name = "ID_Parent" viewName = ""/>
+      <field name = "NameShort" viewName = ""/>
+      <field name = "NameFull" viewName = ""/>
+      <field name = "CodePodrazdel" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "Description" viewName = ""/>
+      <field name = "Graph_BlockSign" viewName = ""/>
+      <field name = "Graph_BlockLeft" viewName = ""/>
+      <field name = "Graph_BlockTop" viewName = ""/>
+      <field name = "Graph_BlockWidth" viewName = ""/>
+      <field name = "Graph_BlockHeight" viewName = ""/>
+      <field name = "Graph_ConnectionType" viewName = ""/>
+      <field name = "ID_CollectionDraw" viewName = ""/>
+      <field name = "Purpose" viewName = ""/>
+      <field name = "Contacts" viewName = ""/>
+      <field name = "MiddleLineX" viewName = ""/>
+      <field name = "MiddleLineY" viewName = ""/>
+      <field name = "isConnectPoint" viewName = ""/>
+    </table>
+
+    <table name = "TblPerepodgotovka" viewName = "">
+      <field name = "ID_Perepodgotovka" bold = "false"/>
+      <field name = "D_CurPerepodgotovka" viewName = ""/>
+      <field name = "DateNextPerepodgotovka" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_TypePerepodgotovka" viewName = ""/>
+      <field name = "Examenator" viewName = ""/>
+      <field name = "ExamenResults" viewName = ""/>
+    </table>
+
+    <table name = "TblPersonShtat" viewName = "">
+      <field name = "ID_PersonShtat" bold = "false"/>
+      <field name = "ID_Doljnost" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "QuanAircrafts" viewName = ""/>
+      <field name = "ID_VUS" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+      <field name = "ID_DocumentIn" viewName = ""/>
+      <field name = "ID_DocumentOut" viewName = ""/>
+      <field name = "IsPrimary" viewName = ""/>
+    </table>
+
+    <table name = "TblPhotos" viewName = "">
+      <field name = "ID_Photo" bold = "false"/>
+      <field name = "UserPhoto" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+    <table name = "TblPodgotovkaForShtat" viewName = "">
+      <field name = "ID_PodgotovkaForShtat" bold = "false"/>
+      <field name = "ID_TypePerepodgotovka" viewName = ""/>
+      <field name = "ID_Doljnost" viewName = ""/>
+    </table>
+
+    <table name = "tblResponsible" viewName = "">
+      <field name = "ID_Responsible" bold = "false"/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "TblRetrainings" viewName = "">
+      <field name = "ID_Retraining" bold = "false"/>
+      <field name = "RetrainingDate" viewName = ""/>
+      <field name = "Lector" viewName = ""/>
+      <field name = "RetrainigPlace" viewName = ""/>
+      <field name = "RetrainingDuration" viewName = ""/>
+      <field name = "RetrainingType" viewName = ""/>
+      <field name = "ID_CollectionDraw" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+      <field name = "isClose" viewName = ""/>
+      <field name = "WhyNot" viewName = ""/>
+      <field name = "ID_Theme" viewName = ""/>
+    </table>
+
+    <table name = "TblSchedules" viewName = "">
+      <field name = "ID_Schedule" bold = "false"/>
+      <field name = "isClose" viewName = ""/>
+      <field name = "ID_Retraining" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "isNeed" viewName = ""/>
+    </table>
+
+    <table name = "TblSkills" viewName = "">
+      <field name = "ID_Skill" bold = "false"/>
+      <field name = "NameSkill" viewName = ""/>
+    </table>
+
+    <table name = "TblSpravOtrasl" viewName = "">
+      <field name = "ID_Otrasl" bold = "false"/>
+      <field name = "Code" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "F_Node" viewName = ""/>
+      <field name = "N_Order" viewName = ""/>
+      <field name = "Curr_State" viewName = ""/>
+      <field name = "If_Last" viewName = ""/>
+    </table>
+
+    <table name = "TblStadyPlaces" viewName = "">
+      <field name = "ID_StadyPlace" bold = "false"/>
+      <field name = "NamePlace" viewName = ""/>
+      <field name = "DiplomDate" viewName = ""/>
+      <field name = "Qualification" viewName = ""/>
+      <field name = "Specialnost" viewName = ""/>
+      <field name = "SpecialityCode" viewName = ""/>
+      <field name = "DiplomSerial" viewName = ""/>
+    </table>
+
+    <table name = "TblThemes" viewName = "">
+      <field name = "ID_Theme" bold = "false"/>
+      <field name = "NameTheme" viewName = ""/>
+      <field name = "ThemeDuration" viewName = ""/>
+      <field name = "DefaultThemePlace" viewName = ""/>
+      <field name = "ThemeNumber" viewName = ""/>
+      <field name = "ThemeCode" viewName = ""/>
+      <field name = "ID_VUS" viewName = ""/>
+      <field name = "ID_Skill" viewName = ""/>
+    </table>
+
+    <table name = "TblTypePerepodgotovka" viewName = "">
+      <field name = "ID_TypePerepodgotovka" bold = "false"/>
+      <field name = "NameTypeP" viewName = ""/>
+      <field name = "Periodichnost" viewName = ""/>
+      <field name = "NotifyDays" viewName = ""/>
+    </table>
+
+    <table name = "tblUserEducation" viewName = "">
+      <field name = "ID_UserEducation" bold = "false"/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_StadyPlace" viewName = ""/>
+    </table>
+
+<!--    <table name = "TblUsers" viewName = "Пользователи">
+      <field name = "ID_User" bold="false"/>
+      <field name = "FamilyName" viewName = "Фамилия"/>
+      <field name = "UserName" viewName = "Имя"/>
+      <field name = "UserSoName" viewName = "Отчество"/>
+      <field name = "DBirthday" viewName = "Дата рождения"/>
+      <field name = "FamilyStatus" viewName = "Семейный статус"/>
+      <field name = "Addres" viewName = "Адрес"/>
+      <field name = "TabNumber" viewName = "Табельный номер"/>
+      <field name = "PersonalNumber" viewName = "Персональный номер"/>
+      <field name = "ID_MillitaryRank" viewName = "Ранг"/>
+      <field name = "ID_VUS" viewName = "ВУС"/>
+      <field name = "Sex" viewName = "Пол"/>
+      <field name = "IsDelete" viewName = "Удален"/>
+      <field name = "DeleteDate" viewName = "Дата удаления"/>
+      <field name = "SpecialNote" viewName = "Специальные пометки"/>
+      <field name = "Pasport_SeriaAndNumber" viewName = "Номер паспорта"/>
+      <field name = "Pasport_IssueDateAndPlace" viewName = "Место и дата выдачи паспорта"/>
+      <field name = "WifeFullName" viewName = "Полное имя жены"/>
+      <field name = "WifeBirthdayDate" viewName = "Дата рождения жены"/>
+      <field name = "WifeMarriageDate" viewName = "Дата свадьбы"/>
+      <field name = "ID_Skill" viewName = "Специальность"/>
+      <field name = "UserWorkPhone" viewName = "Рабочий телефон"/>
+      <field name = "UserHomePhone" viewName = "Домашний телефон"/>
+      <field name = "UserPhotoIcon" viewName = "Фото"/>
+      <field name = "UserPhotoMini" viewName = "Фото уменьшенное"/>
+    </table> -->
+
+    <table name = "TblUsers" viewName = "Users">
+      <field name = "ID_User" bold="false"/>
+      <field name = "FamilyName" viewName = "Lastname"/>
+      <field name = "UserName" viewName = "Firstname"/>
+      <field name = "UserSoName" viewName = "Soname"/>
+      <field name = "DBirthday" viewName = "Birthday date"/>
+      <field name = "FamilyStatus" viewName = "Family status"/>
+      <field name = "Addres" viewName = "Address"/>
+      <field name = "TabNumber" viewName = "Table number"/>
+      <field name = "PersonalNumber" viewName = "Personal number"/>
+      <field name = "ID_MillitaryRank" viewName = "Millitary rank"/>
+      <field name = "ID_VUS" viewName = "Millitary profession"/>
+      <field name = "Sex" viewName = "sex"/>
+      <field name = "IsDelete" viewName = "id delete"/>
+      <field name = "DeleteDate" viewName = "Delete date"/>
+      <field name = "SpecialNote" viewName = "Special note"/>
+      <field name = "Pasport_SeriaAndNumber" viewName = "Pasport seria and number"/>
+      <field name = "Pasport_IssueDateAndPlace" viewName = "Pasport issue date and place"/>
+      <field name = "WifeFullName" viewName = "Wife full name"/>
+      <field name = "WifeBirthdayDate" viewName = "Wife birthday date"/>
+      <field name = "WifeMarriageDate" viewName = "Marriage date"/>
+      <field name = "ID_Skill" viewName = "Skill"/>
+      <field name = "UserWorkPhone" viewName = "Work phone"/>
+      <field name = "UserHomePhone" viewName = "Home phone"/>
+      <field name = "UserPhotoIcon" viewName = "Photo icon"/>
+      <field name = "UserPhotoMini" viewName = "Photo mini"/>
+    </table>
+
+    <table name = "TblVacations" viewName = "">
+      <field name = "ID_Vacation" bold = "false"/>
+      <field name = "VacationFrom" viewName = ""/>
+      <field name = "VacationTo" viewName = ""/>
+      <field name = "VacationDocument" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "Cause" viewName = ""/>
+      <field name = "CauseDetails" viewName = ""/>
+    </table>
+
+    <table name = "TblVUSs" viewName = "">
+      <field name = "ID_VUS" bold = "false"/>
+      <field name = "NameVUS" viewName = ""/>
+      <field name = "CodeVUS" viewName = ""/>
+    </table>
+
+  </dbName>
+  
+  <dbName name = "UPE_MM2_Organization_EN">
+
+    <table name = "TblAircraftDoljnost" viewName = "">
+      <field name = "ID_AircraftDoljnost" bold = "false"/>
+      <field name = "NameAircraftDoljnost" viewName = ""/>
+      <field name = "CommentAircraftDoljnost" viewName = ""/>
+    </table>
+
+    <table name = "TblAircraftShtat" viewName = "">
+      <field name = "ID_AircraftShtat" bold = "false"/>
+      <field name = "ID_AircraftDoljnost" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "QuanMen" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+    </table>
+
+    <table name = "TblChildren" viewName = "">
+      <field name = "ID_Child" bold = "false"/>
+      <field name = "NameChild" viewName = ""/>
+      <field name = "BirthdayDate" viewName = ""/>
+      <field name = "Sex" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+    <table name = "TblCollectionDraw" viewName = "">
+      <field name = "ID_CollectionDraw" bold = "false"/>
+      <field name = "CollectionDrawName" viewName = ""/>
+      <field name = "CollectionDrawDate" viewName = ""/>
+      <field name = "CollectionDrawComment" viewName = ""/>
+    </table>
+
+    <table name = "TblDoljnost" viewName = "">
+      <field name = "ID_Doljnost" bold = "false"/>
+      <field name = "NameDoljnost" viewName = ""/>
+      <field name = "CommentDoljnost" viewName = ""/>
+      <field name = "Functions" viewName = ""/>
+    </table>
+
+    <table name = "TblMillitaryRanks" viewName = "">
+      <field name = "ID_MillitaryRank" bold = "false"/>
+      <field name = "NameMillitaryRank" viewName = ""/>
+    </table>
+
+    <table name = "TblOrganization" viewName = "">
+      <field name = "ID_Organization" bold = "false"/>
+      <field name = "ID_Parent" viewName = ""/>
+      <field name = "NameShort" viewName = ""/>
+      <field name = "NameFull" viewName = ""/>
+      <field name = "CodePodrazdel" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "Description" viewName = ""/>
+      <field name = "Graph_BlockSign" viewName = ""/>
+      <field name = "Graph_BlockLeft" viewName = ""/>
+      <field name = "Graph_BlockTop" viewName = ""/>
+      <field name = "Graph_BlockWidth" viewName = ""/>
+      <field name = "Graph_BlockHeight" viewName = ""/>
+      <field name = "Graph_ConnectionType" viewName = ""/>
+      <field name = "ID_CollectionDraw" viewName = ""/>
+      <field name = "Purpose" viewName = ""/>
+      <field name = "Contacts" viewName = ""/>
+      <field name = "MiddleLineX" viewName = ""/>
+      <field name = "MiddleLineY" viewName = ""/>
+      <field name = "isConnectPoint" viewName = ""/>
+    </table>
+
+    <table name = "TblPerepodgotovka" viewName = "">
+      <field name = "ID_Perepodgotovka" bold = "false"/>
+      <field name = "D_CurPerepodgotovka" viewName = ""/>
+      <field name = "DateNextPerepodgotovka" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_TypePerepodgotovka" viewName = ""/>
+      <field name = "Examenator" viewName = ""/>
+      <field name = "ExamenResults" viewName = ""/>
+    </table>
+
+    <table name = "TblPersonShtat" viewName = "">
+      <field name = "ID_PersonShtat" bold = "false"/>
+      <field name = "ID_Doljnost" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "QuanAircrafts" viewName = ""/>
+      <field name = "ID_VUS" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+      <field name = "ID_DocumentIn" viewName = ""/>
+      <field name = "ID_DocumentOut" viewName = ""/>
+      <field name = "IsPrimary" viewName = ""/>
+    </table>
+
+    <table name = "TblPhotos" viewName = "">
+      <field name = "ID_Photo" bold = "false"/>
+      <field name = "UserPhoto" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+    </table>
+
+    <table name = "TblPodgotovkaForShtat" viewName = "">
+      <field name = "ID_PodgotovkaForShtat" bold = "false"/>
+      <field name = "ID_TypePerepodgotovka" viewName = ""/>
+      <field name = "ID_Doljnost" viewName = ""/>
+    </table>
+
+    <table name = "tblResponsible" viewName = "">
+      <field name = "ID_Responsible" bold = "false"/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+    </table>
+
+    <table name = "TblRetrainings" viewName = "">
+      <field name = "ID_Retraining" bold = "false"/>
+      <field name = "RetrainingDate" viewName = ""/>
+      <field name = "Lector" viewName = ""/>
+      <field name = "RetrainigPlace" viewName = ""/>
+      <field name = "RetrainingDuration" viewName = ""/>
+      <field name = "RetrainingType" viewName = ""/>
+      <field name = "ID_CollectionDraw" viewName = ""/>
+      <field name = "ID_Organization" viewName = ""/>
+      <field name = "isClose" viewName = ""/>
+      <field name = "WhyNot" viewName = ""/>
+      <field name = "ID_Theme" viewName = ""/>
+    </table>
+
+    <table name = "TblSchedules" viewName = "">
+      <field name = "ID_Schedule" bold = "false"/>
+      <field name = "isClose" viewName = ""/>
+      <field name = "ID_Retraining" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "isNeed" viewName = ""/>
+    </table>
+
+    <table name = "TblSkills" viewName = "">
+      <field name = "ID_Skill" bold = "false"/>
+      <field name = "NameSkill" viewName = ""/>
+    </table>
+
+    <table name = "TblSpravOtrasl" viewName = "">
+      <field name = "ID_Otrasl" bold = "false"/>
+      <field name = "Code" viewName = ""/>
+      <field name = "Name" viewName = ""/>
+      <field name = "F_Node" viewName = ""/>
+      <field name = "N_Order" viewName = ""/>
+      <field name = "Curr_State" viewName = ""/>
+      <field name = "If_Last" viewName = ""/>
+    </table>
+
+    <table name = "TblStadyPlaces" viewName = "">
+      <field name = "ID_StadyPlace" bold = "false"/>
+      <field name = "NamePlace" viewName = ""/>
+      <field name = "DiplomDate" viewName = ""/>
+      <field name = "Qualification" viewName = ""/>
+      <field name = "Specialnost" viewName = ""/>
+      <field name = "SpecialityCode" viewName = ""/>
+      <field name = "DiplomSerial" viewName = ""/>
+    </table>
+
+    <table name = "TblThemes" viewName = "">
+      <field name = "ID_Theme" bold = "false"/>
+      <field name = "NameTheme" viewName = ""/>
+      <field name = "ThemeDuration" viewName = ""/>
+      <field name = "DefaultThemePlace" viewName = ""/>
+      <field name = "ThemeNumber" viewName = ""/>
+      <field name = "ThemeCode" viewName = ""/>
+      <field name = "ID_VUS" viewName = ""/>
+      <field name = "ID_Skill" viewName = ""/>
+    </table>
+
+
+    <table name = "TblTypePerepodgotovka" viewName = "">
+      <field name = "ID_TypePerepodgotovka" bold = "false"/>
+      <field name = "NameTypeP" viewName = ""/>
+      <field name = "Periodichnost" viewName = ""/>
+      <field name = "NotifyDays" viewName = ""/>
+    </table>
+
+    <table name = "tblUserEducation" viewName = "">
+      <field name = "ID_UserEducation" bold = "false"/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "ID_StadyPlace" viewName = ""/>
+    </table>
+
+    <table name = "TblUsers" viewName = "Users">
+      <field name = "ID_User" bold="false"/>
+      <field name = "FamilyName" viewName = "Lastname"/>
+      <field name = "UserName" viewName = "Firstname"/>
+      <field name = "UserSoName" viewName = "Soname"/>
+      <field name = "DBirthday" viewName = "Birthday date"/>
+      <field name = "FamilyStatus" viewName = "Family status"/>
+      <field name = "Addres" viewName = "Address"/>
+      <field name = "TabNumber" viewName = "Table number"/>
+      <field name = "PersonalNumber" viewName = "Personal number"/>
+      <field name = "ID_MillitaryRank" viewName = "Millitary rank"/>
+      <field name = "ID_VUS" viewName = "Millitary profession"/>
+      <field name = "Sex" viewName = "sex"/>
+      <field name = "IsDelete" viewName = "id delete"/>
+      <field name = "DeleteDate" viewName = "Delete date"/>
+      <field name = "SpecialNote" viewName = "Special note"/>
+      <field name = "Pasport_SeriaAndNumber" viewName = "Pasport seria and number"/>
+      <field name = "Pasport_IssueDateAndPlace" viewName = "Pasport issue date and place"/>
+      <field name = "WifeFullName" viewName = "Wife full name"/>
+      <field name = "WifeBirthdayDate" viewName = "Wife birthday date"/>
+      <field name = "WifeMarriageDate" viewName = "Marriage date"/>
+      <field name = "ID_Skill" viewName = "Skill"/>
+      <field name = "UserWorkPhone" viewName = "Work phone"/>
+      <field name = "UserHomePhone" viewName = "Home phone"/>
+      <field name = "UserPhotoIcon" viewName = "Photo icon"/>
+      <field name = "UserPhotoMini" viewName = "Photo mini"/>
+    </table>
+
+    <table name = "TblVacations" viewName = "">
+      <field name = "ID_Vacation" bold = "false"/>
+      <field name = "VacationFrom" viewName = ""/>
+      <field name = "VacationTo" viewName = ""/>
+      <field name = "VacationDocument" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "Cause" viewName = ""/>
+      <field name = "CauseDetails" viewName = ""/>
+    </table>
+
+    <table name = "TblVUSs" viewName = "">
+      <field name = "ID_VUS" bold = "false"/>
+      <field name = "NameVUS" viewName = ""/>
+      <field name = "CodeVUS" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Planning_RU">
+
+    <table name = "Aerodromes" viewName = "">
+      <field name = "AerodromeID" viewName = ""/>
+      <field name = "AerodromeName" viewName = ""/>
+    </table>
+
+    <table name = "AvgFactors" viewName = "">
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "StateDate" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "HoursFromKVR" viewName = ""/>
+      <field name = "PlanHours" viewName = ""/>
+      <field name = "HoursPerWeek" viewName = ""/>
+      <field name = "FirstWeekNo" viewName = ""/>
+    </table>
+
+    <table name = "Borts" viewName = "">
+      <field name = "BortID" viewName = ""/>
+    </table>
+
+    <table name = "FactState" viewName = "">
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "StateDate" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "TotalHours" viewName = ""/>
+      <field name = "TotalYears" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+      <field name = "BeginDate" viewName = ""/>
+      <field name = "CurrentJobNo" viewName = ""/>
+      <field name = "CurrentJobBegin" viewName = ""/>
+    </table>
+
+    <table name = "Flights" viewName = "">
+      <field name = "FlightDate" viewName = ""/>
+      <field name = "PilotID" viewName = ""/>
+      <field name = "PilotID2" viewName = ""/>
+      <field name = "Task" viewName = ""/>
+      <field name = "BortID" viewName = ""/>
+      <field name = "CallSign" viewName = ""/>
+      <field name = "DepartureTime" viewName = ""/>
+      <field name = "ArrivalTime" viewName = ""/>
+      <field name = "AerodromeID" viewName = ""/>
+      <field name = "ID" viewName = ""/>
+    </table>
+
+    <table name = "GeneralPlans" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "FromDate" viewName = ""/>
+      <field name = "PlanHours" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+    </table>
+
+    <table name = "Info" viewName = "">
+      <field name = "HoursInWeek" viewName = ""/>
+      <field name = "WeeksInYear" viewName = ""/>
+      <field name = "MaxPlanesInTEC" viewName = ""/>
+      <field name = "MaxFlightHoursInWeek" viewName = ""/>
+      <field name = "MaxFlightTotalHoursInWeek" viewName = ""/>
+      <field name = "MaxPlanesInFactory" viewName = ""/>
+    </table>
+
+    <table name = "LastJobs" viewName = "">
+      <field name = "StateDate" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "JobNo" viewName = ""/>
+      <field name = "JobCount" viewName = ""/>
+      <field name = "LastJobDate" viewName = ""/>
+      <field name = "LastJobHours" viewName = ""/>
+    </table>
+
+    <table name = "Pilots" viewName = "">
+      <field name = "PilotID" viewName = ""/>
+      <field name = "PilotName" viewName = ""/>
+    </table>
+
+    <table name = "Planes" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "PlaneTypeNo" viewName = ""/>
+      <field name = "BortNo" viewName = ""/>
+      <field name = "SerialNo" viewName = ""/>
+      <field name = "DivisionName" viewName = ""/>
+    </table>
+
+    <table name = "PlaneTypes" viewName = "">
+      <field name = "PlaneTypeNo" viewName = ""/>
+      <field name = "PlaneTypeName" viewName = ""/>
+    </table>
+
+    <table name = "Plans" viewName = "">
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "FromDate" viewName = ""/>
+      <field name = "WeekNo" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "WeekDate" viewName = ""/>
+      <field name = "State1" viewName = ""/>
+      <field name = "Hours1" viewName = ""/>
+      <field name = "IsExpired" viewName = ""/>
+      <field name = "IsConflict" viewName = ""/>
+    </table>
+
+    <table name = "ProductState" viewName = "">
+      <field name = "StateDate" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "ProductID" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "TotalYears" viewName = ""/>
+      <field name = "TotalHours" viewName = ""/>
+      <field name = "BeginDate" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "DemandLineNo" viewName = ""/>
+    </table>
+
+    <table name = "States" viewName = "">
+      <field name = "StateNo" viewName = ""/>
+      <field name = "StateName" viewName = ""/>
+      <field name = "IsJob" viewName = ""/>
+      <field name = "InTEC" viewName = ""/>
+      <field name = "IsPeriodic" viewName = ""/>
+      <field name = "HoursToFrstJob" viewName = ""/>
+      <field name = "HoursToFrstJobPlus" viewName = ""/>
+      <field name = "HoursToFrstJobMinus" viewName = ""/>
+      <field name = "HoursToNextJob" viewName = ""/>
+      <field name = "HoursToNextJobPlus" viewName = ""/>
+      <field name = "HoursToNextJobMinus" viewName = ""/>
+      <field name = "MonthsBetweenJob" viewName = ""/>
+      <field name = "MonthsBetweenJobPlus" viewName = ""/>
+      <field name = "MonthsBetweenJobMinus" viewName = ""/>
+      <field name = "JobLength" viewName = ""/>
+      <field name = "Priority" viewName = ""/>
+    </table>
+
+    <table name = "StatesByPlaneTypes" viewName = "">
+      <field name = "PlaneTypeNo" viewName = ""/>
+      <field name = "StateNo" viewName = ""/>
+    </table>
+
+    <table name = "Temp" viewName = "">
+      <field name = "BortNo" viewName = ""/>
+      <field name = "Date_of_Manufacture" viewName = ""/>
+      <field name = "Flying_Hours" viewName = ""/>
+      <field name = "KVR_Count" viewName = ""/>
+      <field name = "HoursFromKVR" viewName = ""/>
+    </table>
+
+    <table name = "TmpGraph" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "JobNo" viewName = ""/>
+      <field name = "BeginHours" viewName = ""/>
+      <field name = "ToBeginHours" viewName = ""/>
+      <field name = "ToBeginHoursMin" viewName = ""/>
+      <field name = "ToBeginHoursMax" viewName = ""/>
+      <field name = "JobLength" viewName = ""/>
+      <field name = "InTEC" viewName = ""/>
+      <field name = "JobWeeks" viewName = ""/>
+      <field name = "WeekFromDate" viewName = ""/>
+      <field name = "WeekFromDateMin" viewName = ""/>
+      <field name = "WeekFromDateMax" viewName = ""/>
+    </table>
+
+    <table name = "TmpGraphP" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "JobNo" viewName = ""/>
+      <field name = "WeekNo" viewName = ""/>
+      <field name = "WeekFromDateMin" viewName = ""/>
+      <field name = "WeekFromDateMax" viewName = ""/>
+      <field name = "JobWeeks" viewName = ""/>
+      <field name = "InTEC" viewName = ""/>
+      <field name = "LastJobDate" viewName = ""/>
+    </table>
+
+    <table name = "TmpRemain" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "TotalHours" viewName = ""/>
+      <field name = "TotalYears" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+      <field name = "BeginDate" viewName = ""/>
+      <field name = "JobLength" viewName = ""/>
+      <field name = "HoursToFrstJob" viewName = ""/>
+      <field name = "HoursToNextJob" viewName = ""/>
+      <field name = "KVRCount" viewName = ""/>
+      <field name = "RemainKVR" viewName = ""/>
+      <field name = "RemainWeeks" viewName = ""/>
+      <field name = "RemainHours" viewName = ""/>
+      <field name = "HoursPerWeek" viewName = ""/>
+      <field name = "HoursPerWeekKorr" viewName = ""/>
+      <field name = "EndFlag" viewName = ""/>
+      <field name = "RemainHoursInPeriod" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Planning_EN">
+
+    <table name = "Aerodromes" viewName = "">
+      <field name = "AerodromeID" viewName = ""/>
+      <field name = "AerodromeName" viewName = ""/>
+    </table>
+
+    <table name = "AvgFactors" viewName = "">
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "StateDate" viewName = ""/>
+      <field name = "SeqNo" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "HoursFromKVR" viewName = ""/>
+      <field name = "PlanHours" viewName = ""/>
+      <field name = "HoursPerWeek" viewName = ""/>
+      <field name = "FirstWeekNo" viewName = ""/>
+    </table>
+
+    <table name = "Borts" viewName = "">
+      <field name = "BortID" viewName = ""/>
+    </table>
+
+    <table name = "FactState" viewName = "">
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "StateDate" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "TotalHours" viewName = ""/>
+      <field name = "TotalYears" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+      <field name = "BeginDate" viewName = ""/>
+      <field name = "CurrentJobNo" viewName = ""/>
+      <field name = "CurrentJobBegin" viewName = ""/>
+    </table>
+
+    <table name = "Flights" viewName = "">
+      <field name = "FlightDate" viewName = ""/>
+      <field name = "PilotID" viewName = ""/>
+      <field name = "PilotID2" viewName = ""/>
+      <field name = "Task" viewName = ""/>
+      <field name = "BortID" viewName = ""/>
+      <field name = "CallSign" viewName = ""/>
+      <field name = "DepartureTime" viewName = ""/>
+      <field name = "ArrivalTime" viewName = ""/>
+      <field name = "AerodromeID" viewName = ""/>
+      <field name = "ID" viewName = ""/>
+    </table>
+
+    <table name = "GeneralPlans" viewName = "">
+      <field name = "KeyNo" viewName = ""/>
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "FromDate" viewName = ""/>
+      <field name = "PlanHours" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+    </table>
+
+    <table name = "Info" viewName = "">
+      <field name = "HoursInWeek" viewName = ""/>
+      <field name = "WeeksInYear" viewName = ""/>
+      <field name = "MaxPlanesInTEC" viewName = ""/>
+      <field name = "MaxFlightHoursInWeek" viewName = ""/>
+      <field name = "MaxFlightTotalHoursInWeek" viewName = ""/>
+      <field name = "MaxPlanesInFactory" viewName = ""/>
+    </table>
+
+    <table name = "LastJobs" viewName = "">
+      <field name = "StateDate" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "JobNo" viewName = ""/>
+      <field name = "JobCount" viewName = ""/>
+      <field name = "LastJobDate" viewName = ""/>
+      <field name = "LastJobHours" viewName = ""/>
+    </table>
+
+    <table name = "Pilots" viewName = "">
+      <field name = "PilotID" viewName = ""/>
+      <field name = "PilotName" viewName = ""/>
+    </table>
+
+    <table name = "Planes" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "PlaneTypeNo" viewName = ""/>
+      <field name = "BortNo" viewName = ""/>
+      <field name = "SerialNo" viewName = ""/>
+      <field name = "DivisionName" viewName = ""/>
+    </table>
+
+    <table name = "PlaneTypes" viewName = "">
+      <field name = "PlaneTypeNo" viewName = ""/>
+      <field name = "PlaneTypeName" viewName = ""/>
+    </table>
+
+    <table name = "Plans" viewName = "">
+      <field name = "OrgNo" viewName = ""/>
+      <field name = "FromDate" viewName = ""/>
+      <field name = "WeekNo" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "WeekDate" viewName = ""/>
+      <field name = "State1" viewName = ""/>
+      <field name = "Hours1" viewName = ""/>
+      <field name = "IsExpired" viewName = ""/>
+      <field name = "IsConflict" viewName = ""/>
+    </table>
+
+    <table name = "ProductState" viewName = "">
+      <field name = "StateDate" viewName = ""/>
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "ProductID" viewName = ""/>
+      <field name = "ProductName" viewName = ""/>
+      <field name = "REFNUMHA" viewName = ""/>
+      <field name = "TotalYears" viewName = ""/>
+      <field name = "TotalHours" viewName = ""/>
+      <field name = "BeginDate" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+      <field name = "DemandNo" viewName = ""/>
+      <field name = "DemandLineNo" viewName = ""/>
+    </table>
+
+    <table name = "States" viewName = "">
+      <field name = "StateNo" viewName = ""/>
+      <field name = "StateName" viewName = ""/>
+      <field name = "IsJob" viewName = ""/>
+      <field name = "InTEC" viewName = ""/>
+      <field name = "IsPeriodic" viewName = ""/>
+      <field name = "HoursToFrstJob" viewName = ""/>
+      <field name = "HoursToFrstJobPlus" viewName = ""/>
+      <field name = "HoursToFrstJobMinus" viewName = ""/>
+      <field name = "HoursToNextJob" viewName = ""/>
+      <field name = "HoursToNextJobPlus" viewName = ""/>
+      <field name = "HoursToNextJobMinus" viewName = ""/>
+      <field name = "MonthsBetweenJob" viewName = ""/>
+      <field name = "MonthsBetweenJobPlus" viewName = ""/>
+      <field name = "MonthsBetweenJobMinus" viewName = ""/>
+      <field name = "JobLength" viewName = ""/>
+      <field name = "Priority" viewName = ""/>
+    </table>
+
+    <table name = "StatesByPlaneTypes" viewName = "">
+      <field name = "PlaneTypeNo" viewName = ""/>
+      <field name = "StateNo" viewName = ""/>
+    </table>
+
+    <table name = "Temp" viewName = "">
+      <field name = "BortNo" viewName = ""/>
+      <field name = "Date_of_Manufacture" viewName = ""/>
+      <field name = "Flying_Hours" viewName = ""/>
+      <field name = "KVR_Count" viewName = ""/>
+      <field name = "HoursFromKVR" viewName = ""/>
+    </table>
+
+    <table name = "TmpGraph" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "JobNo" viewName = ""/>
+      <field name = "BeginHours" viewName = ""/>
+      <field name = "ToBeginHours" viewName = ""/>
+      <field name = "ToBeginHoursMin" viewName = ""/>
+      <field name = "ToBeginHoursMax" viewName = ""/>
+      <field name = "JobLength" viewName = ""/>
+      <field name = "InTEC" viewName = ""/>
+      <field name = "JobWeeks" viewName = ""/>
+      <field name = "WeekFromDate" viewName = ""/>
+      <field name = "WeekFromDateMin" viewName = ""/>
+      <field name = "WeekFromDateMax" viewName = ""/>
+    </table>
+
+    <table name = "TmpGraphP" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "JobNo" viewName = ""/>
+      <field name = "WeekNo" viewName = ""/>
+      <field name = "WeekFromDateMin" viewName = ""/>
+      <field name = "WeekFromDateMax" viewName = ""/>
+      <field name = "JobWeeks" viewName = ""/>
+      <field name = "InTEC" viewName = ""/>
+      <field name = "LastJobDate" viewName = ""/>
+    </table>
+
+    <table name = "TmpRemain" viewName = "">
+      <field name = "PlaneNo" viewName = ""/>
+      <field name = "TotalHours" viewName = ""/>
+      <field name = "TotalYears" viewName = ""/>
+      <field name = "UsageHours" viewName = ""/>
+      <field name = "BeginDate" viewName = ""/>
+      <field name = "JobLength" viewName = ""/>
+      <field name = "HoursToFrstJob" viewName = ""/>
+      <field name = "HoursToNextJob" viewName = ""/>
+      <field name = "KVRCount" viewName = ""/>
+      <field name = "RemainKVR" viewName = ""/>
+      <field name = "RemainWeeks" viewName = ""/>
+      <field name = "RemainHours" viewName = ""/>
+      <field name = "HoursPerWeek" viewName = ""/>
+      <field name = "HoursPerWeekKorr" viewName = ""/>
+      <field name = "EndFlag" viewName = ""/>
+      <field name = "RemainHoursInPeriod" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Reglament2_RU">
+
+    <table name = "CA_TblTasks" viewName = "">
+      <field name = "ID_Task" bold = "false"/>
+      <field name = "SystemCode" viewName = ""/>
+      <field name = "TaskCode" viewName = ""/>
+      <field name = "Model" viewName = ""/>
+      <field name = "TaskName" viewName = ""/>
+      <field name = "ExecutionRate" viewName = ""/>
+      <field name = "NuclearCode" viewName = ""/>
+      <field name = "TraumaProcess" viewName = ""/>
+      <field name = "DangerousCode" viewName = ""/>
+      <field name = "PlanSupportCode" viewName = ""/>
+      <field name = "MeasuringMidTime" viewName = ""/>
+      <field name = "ForecastMidTime" viewName = ""/>
+      <field name = "MeasuringMidWork" viewName = ""/>
+      <field name = "ForecastMidWork" viewName = ""/>
+      <field name = "PrimaryCheckEq" viewName = ""/>
+      <field name = "SecondaryCheckEq" viewName = ""/>
+      <field name = "NeedMeans" viewName = ""/>
+      <field name = "NeedTrainingEq" viewName = ""/>
+      <field name = "TrainingComments" viewName = ""/>
+      <field name = "PlaceBasis" viewName = ""/>
+      <field name = "TrainingBasis" viewName = ""/>
+      <field name = "NeedTools" viewName = ""/>
+      <field name = "PrecisionDemand" viewName = ""/>
+      <field name = "DurationDemand" viewName = ""/>
+      <field name = "CheckDemand" viewName = ""/>
+      <field name = "SpecialConditionA" viewName = ""/>
+      <field name = "SpecialConditionB" viewName = ""/>
+      <field name = "SpecialConditionC" viewName = ""/>
+      <field name = "DisassemblingCode" viewName = ""/>
+      <field name = "DisassemblingNum" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "LCN" viewName = ""/>
+      <field name = "IsSectionOpen" viewName = ""/>
+      <field name = "GUID_System" viewName = ""/>
+      <field name = "GUID_LKN" viewName = ""/>
+      <field name = "TKNumber" viewName = ""/>
+    </table>
+
+    <table name = "CB_TblSubTasks" viewName = "">
+      <field name = "ID_SubTask" bold = "false"/>
+      <field name = "ID_RefToSubtask" viewName = ""/>
+      <field name = "SubTaskName" viewName = ""/>
+      <field name = "SubTaskTime" viewName = ""/>
+      <field name = "ZoneCode" viewName = ""/>
+      <field name = "AccessCode" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_Task" viewName = ""/>
+      <field name = "SubTaskPrice" viewName = ""/>
+      <field name = "Qualification" viewName = ""/>
+      <field name = "isHeader" viewName = ""/>
+    </table>
+
+    <table name = "CC_TblSuccSubTasks" viewName = "">
+      <field name = "ID_SuccSubTask" bold = "false"/>
+      <field name = "SuccessionComment" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "ID_RefSubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "WorkIfNotTT" viewName = ""/>
+      <field name = "Maximums" viewName = ""/>
+    </table>
+
+    <table name = "CE_TblComments" viewName = "">
+      <field name = "ID_Comment" bold = "false"/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "Comment" viewName = ""/>
+      <field name = "LimitValues" viewName = ""/>
+      <field name = "WorkIfLimitValues" viewName = ""/>
+    </table>
+
+    <table name = "CG_TblSupportEq" viewName = "">
+      <field name = "ID_SupportEq" bold = "false"/>
+      <field name = "ManufactureCode" viewName = ""/>
+      <field name = "SupportName" viewName = ""/>
+      <field name = "SupportQuan" viewName = ""/>
+      <field name = "UnitEq" viewName = ""/>
+      <field name = "ExtraEq1" viewName = ""/>
+      <field name = "SpaceEq_Code" viewName = ""/>
+      <field name = "CompabilityTest" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ExtraEq2" viewName = ""/>
+      <field name = "ExtraEq3" viewName = ""/>
+      <field name = "GUID_Support" viewName = ""/>
+    </table>
+
+    <table name = "CH_TblManuals" viewName = "">
+      <field name = "ID_Manual" bold = "false"/>
+      <field name = "ManualCode" viewName = ""/>
+      <field name = "NeedManual" viewName = ""/>
+      <field name = "ManualName" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "LinkToManual" viewName = ""/>
+    </table>
+
+    <table name = "CI_TblAux" viewName = "">
+      <field name = "ID_Aux" bold = "false"/>
+      <field name = "ManufactureAuxCode" viewName = ""/>
+      <field name = "AuxName" viewName = ""/>
+      <field name = "AuxQuan" viewName = ""/>
+      <field name = "AuxUnit" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "GUID_Aux" viewName = ""/>
+    </table>
+
+    <table name = "CI_TblSpares" viewName = "">
+      <field name = "ID_Spare" bold = "false"/>
+      <field name = "SpareName" viewName = ""/>
+      <field name = "ManufactureSpareCode" viewName = ""/>
+      <field name = "SpareQuan" viewName = ""/>
+      <field name = "SpareUnit" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "GUID_Spare" viewName = ""/>
+    </table>
+
+    <table name = "CK_TblPeopleFunctions" viewName = "">
+      <field name = "ID_PeopleFunction" bold = "false"/>
+      <field name = "PositionCode" viewName = ""/>
+      <field name = "ChargeCode" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "FIOCode" viewName = ""/>
+    </table>
+
+    <table name = "CL_TblWarnings" viewName = "">
+      <field name = "ID_SubTask" bold = "false"/>
+      <field name = "InfoCode" viewName = ""/>
+      <field name = "FilePath" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_Warning" viewName = ""/>
+      <field name = "WarningText" viewName = ""/>
+      <field name = "IllustrationText" viewName = ""/>
+      <field name = "IllustrationImage" viewName = ""/>
+      <field name = "FileHesh" viewName = ""/>
+      <field name = "FileSize" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentJobTypesMaintenance" viewName = "">
+      <field name = "ID_Reglament" bold = "false"/>
+      <field name = "ReglamentName" viewName = ""/>
+      <field name = "ReglamentHeader" viewName = ""/>
+      <field name = "ID_Parent" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "PeriodMeasureUnit" viewName = ""/>
+      <field name = "PeriodFactor" viewName = ""/>
+      <field name = "TypeOfReglament" viewName = ""/>
+      <field name = "OtherType" viewName = ""/>
+      <field name = "ProjectCode" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentLinks" viewName = "">
+      <field name = "ID_ReglamentLink" bold = "false"/>
+      <field name = "ID_Task" viewName = ""/>
+      <field name = "ID_ReglamentString" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentPunktLinksWithMaintenance" viewName = "">
+      <field name = "ID_ReglamentPunktLink" bold = "false"/>
+      <field name = "ID_ReglamentString" viewName = ""/>
+      <field name = "ID_Reglament" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+    </table>
+
+    <table name = "TblReglaments" viewName = "">
+      <field name = "ID_Reglament" bold = "false"/>
+      <field name = "ReglamentName" viewName = ""/>
+      <field name = "ReglamentHeader" viewName = ""/>
+      <field name = "ProjectCode" viewName = ""/>
+      <field name = "ID_Parent" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentStrings" viewName = "">
+      <field name = "ID_ReglamentString" bold = "false"/>
+      <field name = "ID_Reglament" viewName = ""/>
+      <field name = "ReglamentPoint" viewName = ""/>
+      <field name = "ReglamentContent" viewName = ""/>
+      <field name = "isParagraph" viewName = ""/>
+      <field name = "ReglamentComment" viewName = ""/>
+      <field name = "ReglamentPeriod" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "TKNumbers" viewName = ""/>
+      <field name = "TypeOfReglament" viewName = ""/>
+      <field name = "PeriodMeasureUnit" viewName = ""/>
+      <field name = "PeriodFactor" viewName = ""/>
+      <field name = "OtherType" viewName = ""/>
+    </table>
+
+  </dbName>
+
+  <dbName name = "UPE_MM2_Reglament2_EN">
+
+    <table name = "CA_TblTasks" viewName = "">
+      <field name = "ID_Task" bold = "false"/>
+      <field name = "SystemCode" viewName = ""/>
+      <field name = "TaskCode" viewName = ""/>
+      <field name = "Model" viewName = ""/>
+      <field name = "TaskName" viewName = ""/>
+      <field name = "ExecutionRate" viewName = ""/>
+      <field name = "NuclearCode" viewName = ""/>
+      <field name = "TraumaProcess" viewName = ""/>
+      <field name = "DangerousCode" viewName = ""/>
+      <field name = "PlanSupportCode" viewName = ""/>
+      <field name = "MeasuringMidTime" viewName = ""/>
+      <field name = "ForecastMidTime" viewName = ""/>
+      <field name = "MeasuringMidWork" viewName = ""/>
+      <field name = "ForecastMidWork" viewName = ""/>
+      <field name = "PrimaryCheckEq" viewName = ""/>
+      <field name = "SecondaryCheckEq" viewName = ""/>
+      <field name = "NeedMeans" viewName = ""/>
+      <field name = "NeedTrainingEq" viewName = ""/>
+      <field name = "TrainingComments" viewName = ""/>
+      <field name = "PlaceBasis" viewName = ""/>
+      <field name = "TrainingBasis" viewName = ""/>
+      <field name = "NeedTools" viewName = ""/>
+      <field name = "PrecisionDemand" viewName = ""/>
+      <field name = "DurationDemand" viewName = ""/>
+      <field name = "CheckDemand" viewName = ""/>
+      <field name = "SpecialConditionA" viewName = ""/>
+      <field name = "SpecialConditionB" viewName = ""/>
+      <field name = "SpecialConditionC" viewName = ""/>
+      <field name = "DisassemblingCode" viewName = ""/>
+      <field name = "DisassemblingNum" viewName = ""/>
+      <field name = "ID_Aircraft" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "LCN" viewName = ""/>
+      <field name = "IsSectionOpen" viewName = ""/>
+      <field name = "GUID_System" viewName = ""/>
+      <field name = "GUID_LKN" viewName = ""/>
+      <field name = "TKNumber" viewName = ""/>
+    </table>
+
+    <table name = "CB_TblSubTasks" viewName = "">
+      <field name = "ID_SubTask" bold = "false"/>
+      <field name = "ID_RefToSubtask" viewName = ""/>
+      <field name = "SubTaskName" viewName = ""/>
+      <field name = "SubTaskTime" viewName = ""/>
+      <field name = "ZoneCode" viewName = ""/>
+      <field name = "AccessCode" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_Task" viewName = ""/>
+      <field name = "SubTaskPrice" viewName = ""/>
+      <field name = "Qualification" viewName = ""/>
+      <field name = "isHeader" viewName = ""/>
+    </table>
+
+    <table name = "CC_TblSuccSubTasks" viewName = "">
+      <field name = "ID_SuccSubTask" bold = "false"/>
+      <field name = "SuccessionComment" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "ID_RefSubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "WorkIfNotTT" viewName = ""/>
+      <field name = "Maximums" viewName = ""/>
+    </table>
+
+    <table name = "CE_TblComments" viewName = "">
+      <field name = "ID_Comment" bold = "false"/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "Comment" viewName = ""/>
+      <field name = "LimitValues" viewName = ""/>
+      <field name = "WorkIfLimitValues" viewName = ""/>
+    </table>
+
+    <table name = "CG_TblSupportEq" viewName = "">
+      <field name = "ID_SupportEq" bold = "false"/>
+      <field name = "ManufactureCode" viewName = ""/>
+      <field name = "SupportName" viewName = ""/>
+      <field name = "SupportQuan" viewName = ""/>
+      <field name = "UnitEq" viewName = ""/>
+      <field name = "ExtraEq1" viewName = ""/>
+      <field name = "SpaceEq_Code" viewName = ""/>
+      <field name = "CompabilityTest" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ExtraEq2" viewName = ""/>
+      <field name = "ExtraEq3" viewName = ""/>
+      <field name = "GUID_Support" viewName = ""/>
+    </table>
+
+    <table name = "CH_TblManuals" viewName = "">
+      <field name = "ID_Manual" bold = "false"/>
+      <field name = "ManualCode" viewName = ""/>
+      <field name = "NeedManual" viewName = ""/>
+      <field name = "ManualName" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "LinkToManual" viewName = ""/>
+    </table>
+
+    <table name = "CI_TblAux" viewName = "">
+      <field name = "ID_Aux" bold = "false"/>
+      <field name = "ManufactureAuxCode" viewName = ""/>
+      <field name = "AuxName" viewName = ""/>
+      <field name = "AuxQuan" viewName = ""/>
+      <field name = "AuxUnit" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "GUID_Aux" viewName = ""/>
+    </table>
+
+    <table name = "CI_TblSpares" viewName = "">
+      <field name = "ID_Spare" bold = "false"/>
+      <field name = "SpareName" viewName = ""/>
+      <field name = "ManufactureSpareCode" viewName = ""/>
+      <field name = "SpareQuan" viewName = ""/>
+      <field name = "SpareUnit" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "GUID_Spare" viewName = ""/>
+    </table>
+
+    <table name = "CK_TblPeopleFunctions" viewName = "">
+      <field name = "ID_PeopleFunction" bold = "false"/>
+      <field name = "PositionCode" viewName = ""/>
+      <field name = "ChargeCode" viewName = ""/>
+      <field name = "ID_User" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_SubTask" viewName = ""/>
+      <field name = "FIOCode" viewName = ""/>
+    </table>
+
+    <table name = "CL_TblWarnings" viewName = "">
+      <field name = "ID_SubTask" bold = "false"/>
+      <field name = "InfoCode" viewName = ""/>
+      <field name = "FilePath" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "ID_Warning" viewName = ""/>
+      <field name = "WarningText" viewName = ""/>
+      <field name = "IllustrationText" viewName = ""/>
+      <field name = "IllustrationImage" viewName = ""/>
+      <field name = "FileHesh" viewName = ""/>
+      <field name = "FileSize" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentJobTypesMaintenance" viewName = "">
+      <field name = "ID_Reglament" bold = "false"/>
+      <field name = "ReglamentName" viewName = ""/>
+      <field name = "ReglamentHeader" viewName = ""/>
+      <field name = "ID_Parent" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "PeriodMeasureUnit" viewName = ""/>
+      <field name = "PeriodFactor" viewName = ""/>
+      <field name = "TypeOfReglament" viewName = ""/>
+      <field name = "OtherType" viewName = ""/>
+      <field name = "ProjectCode" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentLinks" viewName = "">
+      <field name = "ID_ReglamentLink" bold = "false"/>
+      <field name = "ID_Task" viewName = ""/>
+      <field name = "ID_ReglamentString" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentPunktLinksWithMaintenance" viewName = "">
+      <field name = "ID_ReglamentPunktLink" bold = "false"/>
+      <field name = "ID_ReglamentString" viewName = ""/>
+      <field name = "ID_Reglament" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+    </table>
+
+    <table name = "TblReglaments" viewName = "">
+      <field name = "ID_Reglament" bold = "false"/>
+      <field name = "ReglamentName" viewName = ""/>
+      <field name = "ReglamentHeader" viewName = ""/>
+      <field name = "ProjectCode" viewName = ""/>
+      <field name = "ID_Parent" viewName = ""/>
+    </table>
+
+    <table name = "TblReglamentStrings" viewName = "">
+      <field name = "ID_ReglamentString" bold = "false"/>
+      <field name = "ID_Reglament" viewName = ""/>
+      <field name = "ReglamentPoint" viewName = ""/>
+      <field name = "ReglamentContent" viewName = ""/>
+      <field name = "isParagraph" viewName = ""/>
+      <field name = "ReglamentComment" viewName = ""/>
+      <field name = "ReglamentPeriod" viewName = ""/>
+      <field name = "OrderNumber" viewName = ""/>
+      <field name = "TKNumbers" viewName = ""/>
+      <field name = "TypeOfReglament" viewName = ""/>
+      <field name = "PeriodMeasureUnit" viewName = ""/>
+      <field name = "PeriodFactor" viewName = ""/>
+      <field name = "OtherType" viewName = ""/>
+    </table>
+
+  </dbName>
+
+</tableLabel>

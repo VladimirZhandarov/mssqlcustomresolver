@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="">
+      <file>Resources/2_1224_717.png</file>
+      <file>Resources/Button_Exit_original.png</file>
+      <file>Resources/Button_Exit_original_ENG.png</file>
+      <file>Resources/Button_Exit_pressed.png</file>
+      <file>Resources/Button_Exit_pressed_ENG.png</file>
+      <file>Resources/Button_Restore_original.png</file>
+      <file>Resources/Button_Restore_original_ENG.png</file>
+      <file>Resources/Button_Restore_pressed.png</file>
+      <file>Resources/Button_Restore_pressed_ENG.png</file>
+      <file>Resources/Button_Start_original.png</file>
+      <file>Resources/Button_Start_original_ENG.png</file>
+      <file>Resources/Button_Start_pressed.png</file>
+      <file>Resources/Button_Start_pressed_ENG.png</file>
+      <file>Resources/Button_Synchronization_original.png</file>
+      <file>Resources/Button_Synchronization_original_ENG.png</file>
+      <file>Resources/Button_Synchronization_pressed.png</file>
+      <file>Resources/Button_Synchronization_pressed_ENG.png</file>
+      <file>Resources/Button_Backup_copy_original.png</file>
+      <file>Resources/Button_Backup_copy_original_ENG.png</file>
+      <file>Resources/Button_Backup_copy_pressed.png</file>
+      <file>Resources/Button_Backup_copy_pressed_ENG.png</file>
+      <file>Resources/MiG.png</file>
+      <file>Resources/MiG_ENG.png</file>
+      <file>Resources/Name_UPE-29MM2.png</file>
+      <file>Resources/Name_UPE-29MM2_ENG.png</file>
+      <file>Resources/Sinvent.png</file>
+      <file>Resources/Sinvent_ENG.png</file>
+      <file>Resources/Start_form_1.jpg</file>
+    </qresource>
+</RCC>

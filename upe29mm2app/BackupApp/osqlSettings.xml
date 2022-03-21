@@ -1,0 +1,20 @@
+<Settings>
+ <hostName>localhost</hostName>
+ <port>55001</port>
+ <DBServerInstanceName>WIN-OTKENJ4TRM2\UPE_SRV</DBServerInstanceName>
+ <DBNames>
+  <DBName>UPE_MM2_Administration2</DBName>
+  <DBName>UPE_MM2_Catalog</DBName>
+  <DBName>UPE_MM2_Documents2</DBName>
+  <DBName>UPE_MM2_Formular</DBName>
+  <DBName>UPE_MM2_ItemsAccount</DBName>
+  <DBName>UPE_MM2_JPS</DBName>
+  <DBName>UPE_MM2_Organization</DBName>
+  <DBName>UPE_MM2_Planning</DBName>
+  <DBName>UPE_MM2_Reglament2</DBName>
+ </DBNames>
+ <lastBackupDir>C:/sinvent/test</lastBackupDir>
+ <lastBackupUseUsername>True</lastBackupUseUsername>
+ <lastRestoreDir></lastRestoreDir>
+ <lastRestoreUseUsername>True</lastRestoreUseUsername>
+</Settings>
